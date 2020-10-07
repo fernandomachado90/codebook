@@ -1,7 +1,7 @@
 import React from "react"
 import "./Code.css"
 
-function Code({ className }) {
+function Code({ html, css, js, className }) {
   return (
     <div className={`Code ${className}`}>
       <div
@@ -12,9 +12,9 @@ function Code({ className }) {
         data-default-tab="html,result"
         data-prefill='{"title":"Demo"}'
       >
-        <pre data-lang="html">{"test"}</pre>
-        <pre data-lang="css">{"body {background-color: #F1B8FF;}"}</pre>
-        <pre data-lang="js">{"console.log('press F12 to see this')"}</pre>
+        <pre data-lang="html">{html}</pre>
+        <pre data-lang="css">{css}</pre>
+        <pre data-lang="js">{js}</pre>
       </div>
     </div>
   )
