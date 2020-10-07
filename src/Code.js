@@ -1,16 +1,17 @@
 import React from "react"
 import "./Code.css"
 
-function Code({ html, css, js, className }) {
+function Code({ title, html, css, js, className }) {
   return (
-    <div className={`Code ${className}`}>
+    <div className={`Code ${className ? className : ""}`}>
       <div
+        title="codepen"
         className="codepen"
         data-height="100%"
         data-editable="true"
         data-theme-id="dark"
         data-default-tab="html,result"
-        data-prefill='{"title":"Demo"}'
+        data-prefill={`{"title":"${title ? title : ""}"}`}
       >
         <pre data-lang="html">{html}</pre>
         <pre data-lang="css">{css}</pre>

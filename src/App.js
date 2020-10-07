@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Book className="Box Left" />
-      <Code {...prefill} className="Box Right" />
+      <Code title="" {...prefill} className="Box Right" />
     </div>
   )
 }

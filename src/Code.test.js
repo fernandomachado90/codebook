@@ -8,10 +8,27 @@ test("renders Code box", () => {
   const code = container.firstChild
   expect(code).toBeInTheDocument()
   expect(code).toHaveClass("Code", "Box", "Test")
-  debug()
 })
 
-test("renders Code box with prefill", () => {
+test("renders CodePen", () => {
+  const { getByTitle } = render(<Code />)
+
+  const codepen = getByTitle("codepen")
+  expect(codepen).toBeInTheDocument()
+  expect(codepen).toHaveAttribute("data-prefill", `{"title":""}`)
+})
+
+test("renders CodePen with title", () => {
+  const title = "hello"
+
+  const { getByTitle } = render(<Code title="hello" />)
+
+  const codepen = getByTitle("codepen")
+  expect(codepen).toBeInTheDocument()
+  expect(codepen).toHaveAttribute("data-prefill", `{"title":"hello"}`)
+})
+
+test("renders CodePen with prefill", () => {
   const prefill = {
     html: `<div>welcome</div>`,
     css: `div {color: purple}`,
