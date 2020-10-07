@@ -1,7 +1,23 @@
 import React from "react"
 import "./Code.css"
 
+const DEFAULT = {
+  html: `<body>
+
+</body>`,
+  css: `body {
+  
+};
+`,
+  js: `// Aperte F12 para acessar o Console
+`,
+}
+
 function Code({ title, html, css, js, className }) {
+  if (html === true) html = DEFAULT.html
+  if (css === true) css = DEFAULT.css
+  if (js === true) js = DEFAULT.js
+
   return (
     <div className={`Code ${className ? className : ""}`}>
       <div

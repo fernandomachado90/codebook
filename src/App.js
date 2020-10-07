@@ -4,13 +4,9 @@ import Book from "./Book"
 import Code from "./Code"
 
 const prefill = {
-  html: `
-<p>
-hello, world!
-</p>
-`,
+  html: true,
   css: `body {background-color: #F1B8FF};`,
-  js: `console.log('press F12 to see this');`,
+  js: true,
 }
 
 function App() {
