@@ -1,6 +1,6 @@
 {
-  "name": "janela-pra-web",
-  "homepage": "http://fernandomachado90.github.io/janela-pra-web",
+  "name": "janela-web",
+  "homepage": "http://fernandomachado90.github.io/janela-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
