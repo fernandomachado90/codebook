@@ -1,11 +1,12 @@
 import React from "react"
 import "./App.css"
+import Book from "./Book"
 
 function App() {
   return (
     <div className="App">
-      <div className="Book Box">book</div>
-      <div className="Code Box">
+      <Book className="Box Left" />
+      <div className="Box Right">
         <div
           title="codepen"
           className="codepen"
