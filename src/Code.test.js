@@ -20,13 +20,13 @@ test("renders CodePen", () => {
 })
 
 test("renders CodePen with title", () => {
-  const title = "hello"
+  const title = "Hello, World!"
 
-  const { getByTitle } = render(<Code title="Hello, World!" />)
+  const { getByTitle } = render(<Code title={title} />)
 
   const codepen = getByTitle("codepen")
   expect(codepen).toBeInTheDocument()
-  expect(codepen).toHaveAttribute("data-prefill", `{"title":"Hello, World!"}`)
+  expect(codepen).toHaveAttribute("data-prefill", `{"title":"${title}"}`)
   expect(codepen).not.toHaveTextContent()
 })
 
