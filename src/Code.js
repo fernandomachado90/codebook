@@ -1,20 +1,37 @@
 import React from "react"
 import "./Code.css"
 
-function Code({ className }) {
+const DEFAULT = {
+  html: `<body>
+
+</body>`,
+  css: `body {
+  
+};
+`,
+  js: `// Aperte F12 para acessar o Console
+`,
+}
+
+function Code({ title, html, css, js, className }) {
+  if (html === true) html = DEFAULT.html
+  if (css === true) css = DEFAULT.css
+  if (js === true) js = DEFAULT.js
+
   return (
-    <div className={`Code ${className}`}>
+    <div className={`Code ${className ? className : ""}`}>
       <div
+        title="codepen"
         className="codepen"
         data-height="100%"
         data-editable="true"
         data-theme-id="dark"
         data-default-tab="html,result"
-        data-prefill='{"title":"Demo"}'
+        data-prefill={`{"title":"${title ? title : ""}"}`}
       >
-        <pre data-lang="html">{"test"}</pre>
-        <pre data-lang="css">{"body {background-color: #F1B8FF;}"}</pre>
-        <pre data-lang="js">{"console.log('press F12 to see this')"}</pre>
+        <pre data-lang="html">{html}</pre>
+        <pre data-lang="css">{css}</pre>
+        <pre data-lang="js">{js}</pre>
       </div>
     </div>
   )
