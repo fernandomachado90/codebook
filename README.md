@@ -1,6 +1,6 @@
 # janela-web
 
-Open source learning tool that allows to users to follow **textbook** while practicing HTML, CSS and JS on a [CodePen](https://blog.codepen.io/documentation/prefill-embeds/) editor.
+Open source learning tool that allows to users to follow **textbook** contents while practicing **HTML**, **CSS** and **JS** on a [CodePen](https://blog.codepen.io/documentation/prefill-embeds/) editor.
 
 ## Requisites
 
