@@ -17,11 +17,11 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 600px) {
-  .Box.Left {
-    width: 33%;
+@media only screen and (min-width: 660px) {
+  .Box.Single {
+    width: 34%;
   }
-  .Box.Right {
-    width: 67%;
+  .Box.Double {
+    width: 66%;
   }
 }

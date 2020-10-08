@@ -1,3 +1,41 @@
 .Book {
-  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Book .Header, .Book .Content, .Book .Footer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: left;
+  align-content: center;
+  align-items: center;
+}
+
+.Book .Header {
+  height: 51px;
+  padding: 0px 16px;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.Book .Footer {
+  height: 31px;
+  padding: 0px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+}
+
+.Book .Content {
+  height: calc(100% - 122px);
+  padding: 20px;
+  overflow: auto;
+  align-items: flex-start;
 }
