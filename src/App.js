@@ -12,8 +12,8 @@ const prefill = {
 function App() {
   return (
     <div className="App">
-      <Book className="Box Left" />
-      <Code title="" {...prefill} className="Box Right" />
+      <Book className="Box Single" />
+      <Code title="" {...prefill} className="Box Double" />
     </div>
   )
 }
