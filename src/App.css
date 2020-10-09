@@ -17,11 +17,17 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 660px) {
+@media only screen and (max-width: 768px) {
+  .Box {
+    height: calc(100% - 120px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .Box.Single {
-    width: 34%;
+    width: 33%;
   }
   .Box.Double {
-    width: 66%;
+    width: 67%;
   }
 }
