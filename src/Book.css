@@ -47,13 +47,13 @@
 }
 
 .Link {
-  color: #757575;
+  color: #1e1b1c;
   display: inline-flex;
   align-items: center;
 }
 
 .Link:hover {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .Link img {
