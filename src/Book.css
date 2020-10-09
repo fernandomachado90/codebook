@@ -15,10 +15,16 @@
   align-items: center;
 }
 
+.Book .Header, .Book .Footer {
+  text-transform: uppercase;
+  background-color: #eeeeee;
+  z-index: 1;
+}
+
 .Book .Header {
   height: 51px;
-  padding: 0px 16px;
-  background-color: #eeeeee;
+  padding: 0px 20px;
+  font-size: 24px;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
@@ -27,8 +33,6 @@
   height: 31px;
   padding: 0px 10px;
   font-size: 10px;
-  text-transform: uppercase;
-  background-color: #eeeeee;
   -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
   box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
 }
@@ -38,4 +42,5 @@
   padding: 20px;
   overflow: auto;
   align-items: flex-start;
+  z-index: 0;
 }
