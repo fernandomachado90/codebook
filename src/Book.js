@@ -4,11 +4,19 @@ import "./Book.css"
 function Book({ header, content, className }) {
   return (
     <div className={`Book ${className ? className : ""}`}>
-      <div className="Header">{header}</div>
+      <nav className="Header">
+        {header}
+        <div>1/10</div>
+      </nav>
       <div className="Content">{content}</div>
-      <div className="Footer">
-        © Janela Web /<a href="https://github.com/fernandomachado90/janela-web">Contribute</a>
-      </div>
+      <footer className="Footer">
+        © 2020 Janela Web
+        <a className="Link" href="https://github.com/fernandomachado90/janela-web" 
+          target="_blank" rel="noopener noreferrer">
+          <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
+          colabore
+        </a>
+      </footer>
     </div>
   )
 }

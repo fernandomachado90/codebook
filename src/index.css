@@ -10,13 +10,3 @@ html, body {
   font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
   color: #111111;
 }
-
-a {
-  text-decoration: none;
-  color: #333333;
-  border-bottom: 1px dotted #333333;
-}
-
-a:hover {
-  opacity: 0.5;
-}
