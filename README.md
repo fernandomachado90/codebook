@@ -1,6 +1,6 @@
 # janela-web
 
-Open-source learning tool that allows to users to follow **textbook** contents while practicing **HTML**, **CSS** and **JS** on an editor.
+Open-source learning tool that allows to users to follow a **textbook** while practicing **HTML**, **CSS** and **JS** using a live code editor.
 
 ## Requisites
 
