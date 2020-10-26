@@ -11,8 +11,12 @@ function Book({ header, content, className }) {
       <div className="Content">{content}</div>
       <footer className="Footer">
         © 2020 Janela Web
-        <a className="Link" href="https://github.com/fernandomachado90/janela-web" 
-          target="_blank" rel="noopener noreferrer">
+        <a
+          className="Link"
+          href="https://github.com/fernandomachado90/janela-web"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
           colabore
         </a>
