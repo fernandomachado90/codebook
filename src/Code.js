@@ -4,7 +4,8 @@ import "./Code.css"
 const DEFAULT = {
   html: `<body>
 
-</body>`,
+</body>
+`,
   css: `body {
   
 };

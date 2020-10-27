@@ -5,7 +5,7 @@ import Code from "./Code"
 
 const prefill = {
   html: true,
-  css: `body {background-color: #F1B8FF};`,
+  css: true,
   js: true,
 }
 
