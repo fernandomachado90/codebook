@@ -10,7 +10,7 @@ const DEFAULT = {
   
 };
 `,
-  js: `// Aperte F12 para acessar o Console
+  js: `// Pressione F12 para acessar o Console.
 `,
 }
 
