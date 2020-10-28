@@ -45,6 +45,10 @@
   z-index: 0;
 }
 
+.Book .Header .Counter {
+  font-size: 16px;
+}
+
 .Link {
   color: #1e1b1c;
   display: inline-flex;
