@@ -9,10 +9,10 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
-    "format": "prettier --write --no-semi --trailing-comma es5 --print-width 120 '**/*.js'",
+    "format": "prettier --write --no-semi --trailing-comma es5 --print-width 120 .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

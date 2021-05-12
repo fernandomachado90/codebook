@@ -5,7 +5,9 @@
   align-items: center;
 }
 
-.Book .Header, .Book .Content, .Book .Footer {
+.Book .Header,
+.Book .Content,
+.Book .Footer {
   width: 100%;
   display: inline-flex;
   justify-content: left;
@@ -13,7 +15,8 @@
   align-items: center;
 }
 
-.Book .Header, .Book .Footer {
+.Book .Header,
+.Book .Footer {
   justify-content: space-between;
   text-transform: uppercase;
   background-color: #eeeeee;
@@ -25,16 +28,16 @@
   height: 51px;
   padding: 0px 20px;
   font-size: 24px;
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .Book .Footer {
   height: 31px;
   padding: 0px 10px;
   font-size: 12px;
-  -webkit-box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
-  box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .Book .Content {
