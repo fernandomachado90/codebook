@@ -19,15 +19,16 @@
 .Book .Footer {
   justify-content: space-between;
   text-transform: uppercase;
-  background-color: #eeeeee;
-  color: #111111;
+  background-color: #ff2e63;
+  color: #eaeaea;
   z-index: 1;
 }
 
 .Book .Header {
   height: 51px;
-  padding: 0px 20px;
+  padding: 0px 7px;
   font-size: 24px;
+  font-weight: bold;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -43,13 +44,31 @@
 .Book .Content {
   height: calc(100% - 122px);
   padding: 20px;
+  background-color: #eaeaea;
+  color: #252a34;
   overflow: auto;
   align-items: flex-start;
   z-index: 0;
 }
 
-.Book .Header .Counter {
-  font-size: 16px;
+.Book .Header .Navigation span {
+  font-size: 15px;
+  padding: 4px;
+}
+
+.Book .Header .Navigation button {
+  color: #252a34;
+  font-size: 15px;
+  background-color: #08d9d6;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 40px;
+  width: 30px;
+}
+
+.Book .Header .Navigation button:hover {
+  opacity: 0.9;
 }
 
 .Link {
@@ -59,7 +78,7 @@
 }
 
 .Link:hover {
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .Link img {

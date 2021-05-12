@@ -31,9 +31,9 @@ function Book({ className }) {
           📖
         </span>
         {title}
-        <div className="Counter">
+        <div className="Navigation">
           <button onClick={handlePrevPage}>{"<"}</button>
-          {` ${page}/${settings.pages} `}
+          <span>{` ${page}/${settings.pages} `}</span>
           <button onClick={handleNextPage}>{">"}</button>
         </div>
       </nav>
