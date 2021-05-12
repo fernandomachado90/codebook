@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react"
-import settings from "./pages/settings.js"
-
 import "./Book.css"
+
+const settings = {
+  pages: 3,
+}
 
 function Book({ className }) {
   const [title, setTitle] = useState()
