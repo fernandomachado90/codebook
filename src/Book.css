@@ -9,7 +9,7 @@
 .Book .Content,
 .Book .Footer {
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: left;
   align-content: center;
   align-items: center;
@@ -39,12 +39,13 @@
 }
 
 .Book .Content {
-  height: calc(100% - 120px);
-  padding: 20px;
+  height: calc(100% - 80px);
+  padding: 0 20px;
   background-color: #eaeaea;
   color: #252a34;
   overflow: auto;
   align-items: flex-start;
+  text-align: justify;
 }
 
 .Book .Header .Navigation span {
