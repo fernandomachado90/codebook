@@ -30,6 +30,10 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
+.Book .Header img {
+  margin-left: 6px;
+}
+
 .Book .Footer {
   height: 30px;
   padding: 0px 10px;
@@ -51,7 +55,7 @@
 
 .Book .Header .Navigation span {
   font-size: 18px;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .Book .Header .Navigation button {

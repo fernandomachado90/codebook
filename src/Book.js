@@ -28,13 +28,13 @@ function Book({ className }) {
   return (
     <div className={`Book ${className ? className : ""}`}>
       <nav className="Header">
-        <span role="img" aria-label="title">
-          📖
-        </span>
+        <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         {content?.title}
         <div className="Navigation">
           <button onClick={handlePrevPage}>{"<"}</button>
-          <span>{` ${page}/${settings.pages} `}</span>
+          <span>
+            {page}/{settings.pages}
+          </span>
           <button onClick={handleNextPage}>{">"}</button>
         </div>
       </nav>
