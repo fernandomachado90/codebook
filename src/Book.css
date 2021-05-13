@@ -20,11 +20,10 @@
   justify-content: space-between;
   background-color: #28282a;
   color: #eaeaea;
-  z-index: 1;
 }
 
 .Book .Header {
-  height: 51px;
+  height: 50px;
   padding: 0px 7px;
   font-size: 24px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -32,7 +31,7 @@
 }
 
 .Book .Footer {
-  height: 31px;
+  height: 30px;
   padding: 0px 10px;
   font-size: 12px;
   -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3);
@@ -40,13 +39,12 @@
 }
 
 .Book .Content {
-  height: calc(100% - 122px);
+  height: calc(100% - 120px);
   padding: 20px;
   background-color: #eaeaea;
   color: #252a34;
   overflow: auto;
   align-items: flex-start;
-  z-index: 0;
 }
 
 .Book .Header .Navigation span {
@@ -61,7 +59,7 @@
   border: none;
   border-radius: 2px;
   cursor: pointer;
-  margin-top: 3px;
+  margin-top: 4px;
   line-height: 40px;
   height: 40px;
   width: 30px;
