@@ -36,5 +36,7 @@ Publishes static page to GitHub Pages using [gh-pages](https://github.com/tschau
 
 ## Special thanks
 
-- [CodePen Prefill Embeds](https://blog.codepen.io/documentation/prefill-embeds/)
-- [Hero Patterns](http://www.heropatterns.com/)
+- Powered by [CodePen Prefill Embeds](https://blog.codepen.io/documentation/prefill-embeds/)
+- Patterns by [Hero Patterns](http://www.heropatterns.com/)
+- Icons made by [prettycons](https://www.flaticon.com/authors/prettycons) from [Flaticon](https://www.flaticon.com)
+- Favicons by [Favicon Generator](https://www.favicon-generator.org/)
