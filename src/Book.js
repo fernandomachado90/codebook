@@ -47,7 +47,7 @@ function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="Footer">
-      © 2020-{year} Janela Web
+      © 2020-{year} CodeBook
       <a
         className="Link"
         href="https://github.com/fernandomachado90/janela-web"
@@ -55,7 +55,7 @@ function Footer() {
         rel="noopener noreferrer"
       >
         <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
-        colabore
+        Colabore
       </a>
     </footer>
   )

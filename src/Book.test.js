@@ -18,7 +18,7 @@ test("renders Book box", async () => {
   const content = await findByText(/Test contents/i)
   expect(content).toHaveClass("Content")
 
-  const footer = getByText(/Janela Web/i)
+  const footer = getByText(/2020/i)
   expect(footer).toHaveClass("Footer")
 
   const book = container.firstChild

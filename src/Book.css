@@ -18,8 +18,7 @@
 .Book .Header,
 .Book .Footer {
   justify-content: space-between;
-  text-transform: uppercase;
-  background-color: #ff2e63;
+  background-color: #28282a;
   color: #eaeaea;
   z-index: 1;
 }
@@ -28,7 +27,6 @@
   height: 51px;
   padding: 0px 7px;
   font-size: 24px;
-  font-weight: bold;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -52,17 +50,19 @@
 }
 
 .Book .Header .Navigation span {
-  font-size: 15px;
-  padding: 4px;
+  font-size: 18px;
+  padding: 0 4px;
 }
 
 .Book .Header .Navigation button {
-  color: #252a34;
-  font-size: 15px;
-  background-color: #08d9d6;
+  font-size: 18px;
+  color: #eaeaea;
+  background-color: #424242;
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-top: 3px;
+  line-height: 40px;
   height: 40px;
   width: 30px;
 }
@@ -71,8 +71,16 @@
   opacity: 0.9;
 }
 
+.Book .Header .Navigation button:active {
+  transform: translateY(1px);
+  background-color: #212121;
+  color: #ff8a00;
+}
+
 .Link {
-  color: #1e1b1c;
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: bold;
   display: inline-flex;
   align-items: center;
 }

@@ -26,7 +26,8 @@ function Code({ title, html, css, js, className }) {
         className="codepen"
         data-height="100%"
         data-editable="true"
-        data-theme-id="dark"
+        data-theme-id="1"
+        data-border="none"
         data-default-tab="html,result"
         data-prefill={`{"title":"${title ? title : ""}"}`}
       >
