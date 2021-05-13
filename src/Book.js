@@ -6,7 +6,6 @@ const settings = {
 }
 
 function Book({ className }) {
-  const [title, setTitle] = useState()
   const [content, setContent] = useState()
 
   const [page, setPage] = useState(0)
@@ -18,9 +17,11 @@ function Book({ className }) {
   }
 
   useEffect(() => {
-    import(`./pages/${page}.js`).then(({ title, content }) => {
-      setTitle(title)
-      setContent(content)
+    import(`./pages/${page}.js`).then(({ title, body }) => {
+      setContent({
+        title: title,
+        body: body,
+      })
     })
   }, [page])
 
@@ -30,14 +31,14 @@ function Book({ className }) {
         <span role="img" aria-label="title">
           📖
         </span>
-        {title}
+        {content?.title}
         <div className="Navigation">
           <button onClick={handlePrevPage}>{"<"}</button>
           <span>{` ${page}/${settings.pages} `}</span>
           <button onClick={handleNextPage}>{">"}</button>
         </div>
       </nav>
-      <div className="Content">{content}</div>
+      <div className="Content">{content?.body}</div>
       <Footer />
     </div>
   )

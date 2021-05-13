@@ -5,7 +5,7 @@ import Book from "./Book"
 jest.mock("./pages/0.js", () => {
   return {
     title: "Test Title",
-    content: <>Test contents</>,
+    body: <>Test body</>,
   }
 })
 
@@ -15,7 +15,7 @@ test("renders Book box", async () => {
   const header = await findByText(/Test Title/i)
   expect(header).toHaveClass("Header")
 
-  const content = await findByText(/Test contents/i)
+  const content = await findByText(/Test body/i)
   expect(content).toHaveClass("Content")
 
   const footer = getByText(/2020/i)
