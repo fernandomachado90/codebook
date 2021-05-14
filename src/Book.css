@@ -44,6 +44,8 @@
   line-height: 40px;
   height: 40px;
   width: 30px;
+  -webkit-transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
+  transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
 }
 
 .Book .Header .Navigation button:hover {
@@ -86,12 +88,15 @@
   color: #eaeaea;
   text-decoration: none;
   font-weight: bold;
+  font-size: 10px;
   display: inline-flex;
   align-items: center;
 }
 
 .Book .Footer .Link:hover {
   opacity: 0.8;
+  -webkit-transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
+  transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
 }
 
 .Book .Footer .Link img {
