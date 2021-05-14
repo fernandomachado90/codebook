@@ -58,6 +58,11 @@
   color: #ff8a00;
 }
 
+.Book .Header .Navigation button:disabled {
+  transform: translateY(1px);
+  background-color: #212121;
+}
+
 .Book .Header img {
   margin-left: 6px;
 }

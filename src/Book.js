@@ -17,6 +17,7 @@ function Book({ className }) {
   }
 
   useEffect(() => {
+    setContent()
     import(`./pages/${page}.js`).then(({ title, body }) => {
       setContent({
         title: title,
@@ -31,11 +32,15 @@ function Book({ className }) {
         <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         {content?.title}
         <div className="Navigation">
-          <button onClick={handlePrevPage}>{"<"}</button>
+          <button onClick={handlePrevPage} disabled={!content}>
+            {"<"}
+          </button>
           <span>
             {page}/{settings.pages}
           </span>
-          <button onClick={handleNextPage}>{">"}</button>
+          <button onClick={handleNextPage} disabled={!content}>
+            {">"}
+          </button>
         </div>
       </nav>
       <div className="Content">{content?.body}</div>
