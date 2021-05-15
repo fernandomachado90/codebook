@@ -22,7 +22,7 @@
 
 .Book .Header {
   height: 50px;
-  padding: 0px 7px;
+  padding: 0px 8px;
   font-size: 24px;
 }
 
@@ -51,10 +51,8 @@
   line-height: 39px;
   height: 40px;
   width: 30px;
-  -webkit-transition: color 200ms ease, background-color 200ms ease, opacity 200ms ease, box-shadow 50ms ease,
-    -webkit-box-shadow 50ms ease;
-  transition: color 200ms ease, background-color 200ms ease, opacity 200ms ease, box-shadow 50ms ease,
-    -webkit-box-shadow 50ms ease;
+  -webkit-transition: color 200ms ease, background-color 200ms ease, box-shadow 50ms ease, -webkit-box-shadow 50ms ease;
+  transition: color 200ms ease, background-color 200ms ease, box-shadow 50ms ease, -webkit-box-shadow 50ms ease;
 }
 
 .Book .Header .Navigation button:first-child {
