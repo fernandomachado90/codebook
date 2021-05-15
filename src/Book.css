@@ -10,8 +10,6 @@
 .Book .Footer {
   width: 100%;
   display: flex;
-  justify-content: left;
-  align-content: center;
   align-items: center;
 }
 
@@ -89,8 +87,8 @@
 }
 
 .Book .Content {
-  height: calc(100% - 80px);
-  padding: 0 20px;
+  height: calc(100% - 120px);
+  padding: 20px;
   color: #000000;
   overflow: auto;
   align-items: flex-start;
