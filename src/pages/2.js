@@ -11,7 +11,7 @@ export const body = (
       tellus dolor sed est. Fusce sit amet sagittis dui. Nullam tempus molestie nulla, id iaculis odio fermentum quis.
       Vivamus blandit condimentum tincidunt.
     </p>
-    <img alt="GitHub" src={`${process.env.PUBLIC_URL}/coding.png`} />
+    <img alt="CodeBook" src={`${process.env.PUBLIC_URL}/coding-orange.png`} />
   </div>
 )
 
