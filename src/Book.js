@@ -53,7 +53,7 @@ function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="Footer">
-      © 2020-{year} CodeBook
+      © 2020—{year} CodeBook
       <a
         className="Link"
         href="https://github.com/fernandomachado90/janela-web"
