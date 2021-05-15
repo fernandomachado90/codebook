@@ -1,0 +1,44 @@
+.Content img {
+  display: block;
+  margin: 6px auto;
+}
+
+.Content p,
+.Content h1,
+.Content h2,
+.Content h3,
+.Content h4,
+.Content h5,
+.Content h6 {
+  padding: 6px 0;
+  line-height: normal;
+  color: #28282a;
+}
+
+.Content p {
+  font-size: 16px;
+}
+
+.Content h1 {
+  font-size: 32px;
+}
+
+.Content h2 {
+  font-size: 28px;
+}
+
+.Content h3 {
+  font-size: 24px;
+}
+
+.Content h4 {
+  font-size: 20px;
+}
+
+.Content h5 {
+  font-size: 16px;
+}
+
+.Content h6 {
+  font-size: 12px;
+}

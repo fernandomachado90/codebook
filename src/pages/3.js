@@ -1,5 +1,6 @@
 import React from "react"
 
+export const title = "Fontes & Cores"
 export const body = (
   <div>
     <h1>hello</h1>
@@ -10,4 +11,3 @@ export const body = (
     <h6>!</h6>
   </div>
 )
-export const title = "Third page"

@@ -20,7 +20,7 @@ test("renders Book box", async () => {
   const { container, getByText, findByText } = render(<Book className="Box Test" />)
 
   const header = await findByText(/title zero/i)
-  expect(header).toHaveClass("Header")
+  expect(header.parentElement).toHaveClass("Header")
 
   const content = await findByText(/body zero/i)
   expect(content).toHaveClass("Content")

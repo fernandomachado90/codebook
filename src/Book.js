@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import "./Book.css"
+import "./BookContent.css"
 
 const settings = {
   pages: 3,
@@ -30,7 +31,7 @@ function Book({ className }) {
     <div className={`Book ${className ? className : ""}`}>
       <nav className="Header">
         <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
-        {content?.title}
+        <div className="Title">{content?.title}</div>
         <div className="Navigation">
           <button onClick={handlePrevPage} disabled={!content}>
             {"<"}

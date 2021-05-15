@@ -1,5 +1,6 @@
 import React from "react"
 
+export const title = "Listas Ordenadas"
 export const body = (
   <div>
     <img alt="GitHub" src={`${process.env.PUBLIC_URL}/android-icon-192x192.png`} />
@@ -32,4 +33,3 @@ export const body = (
     </p>
   </div>
 )
-export const title = "First page"

@@ -1,5 +1,6 @@
 import React from "react"
 
+export const title = "Tabelas"
 export const body = (
   <div>
     <p>
@@ -12,7 +13,10 @@ export const body = (
       Vivamus blandit condimentum tincidunt.
     </p>
     <img alt="CodeBook" src={`${process.env.PUBLIC_URL}/coding-orange.png`} />
+    <p>
+      Vestibulum faucibus nisi ante, ut pretium diam vehicula molestie. Pellentesque habitant morbi tristique senectus
+      et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
+      ante nec placerat.
+    </p>
   </div>
 )
-
-export const title = "Second page"

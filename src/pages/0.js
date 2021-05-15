@@ -1,5 +1,6 @@
 import React from "react"
 
+export const title = "CodeBook"
 export const body = (
   <div>
     <p>
@@ -43,5 +44,3 @@ export const body = (
     </p>
   </div>
 )
-
-export const title = "Welcome"
