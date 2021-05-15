@@ -72,14 +72,10 @@
 }
 
 .Book .Header .Navigation button:active {
+  opacity: 1;
   transform: translateY(1px);
   background-color: #212121;
   box-shadow: inset 0px 3px #ff8a00;
-}
-
-.Book .Header .Navigation button:disabled {
-  transform: translateY(1px);
-  background-color: #212121;
 }
 
 .Book .Header img {
