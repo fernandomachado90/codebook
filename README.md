@@ -34,7 +34,7 @@ Launches the test runner in the interactive watch mode.
 
 Publishes static page to GitHub Pages using [gh-pages](https://github.com/tschaub/gh-pages). Tutorial available [here](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
 
-## Special thanks
+## References
 
 - Powered by [CodePen Prefill Embeds](https://blog.codepen.io/documentation/prefill-embeds/)
 - Patterns by [Hero Patterns](http://www.heropatterns.com/)

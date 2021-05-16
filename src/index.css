@@ -1,23 +1,13 @@
-html,
 body {
-  margin: 0;
-  padding: 0;
   height: 100vh;
   width: 100vw;
   font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   background-color: #28282a;
-}
-
-body {
-  -webkit-animation: fadein 1s;
-  -moz-animation: fadein 1s;
-  -ms-animation: fadein 1s;
-  -o-animation: fadein 1s;
-  animation: fadein 1s;
-}
-
-iframe {
-  animation: fadein 3s;
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -ms-animation: fadein 5s;
+  -o-animation: fadein 5s;
+  animation: fadein 5s;
 }
 
 @keyframes fadein {

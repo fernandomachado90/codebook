@@ -25,12 +25,22 @@
   padding: 0px 8px;
 }
 
+.Book .Header img {
+  margin-left: 6px;
+}
+
 .Book .Header .Title {
   font-size: 24px;
   height: 50px;
   margin-top: -2px;
   line-height: 50px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Book .Header .Title {
+    font-size: 20px;
+  }
 }
 
 .Book .Header .Navigation {
@@ -81,10 +91,6 @@
   transform: translateY(1px);
   background-color: #212121;
   box-shadow: inset 0px 3px #ff8a00;
-}
-
-.Book .Header img {
-  margin-left: 4px;
 }
 
 .Book .Content {

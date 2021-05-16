@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -10,7 +10,15 @@
       content="Open-source learning tool that allows to users to follow a textbook while practicing HTML, CSS and JS using a live code editor."
     />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    <script>
+     async function __CodePenIFrameAddedToPage() {
+        document.querySelector("iframe").onload = async function() {
+          document.getElementById("root").style.opacity = 1;
+        }
+      }
+    </script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180561161-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -39,22 +47,10 @@
     <meta name="msapplication-TileImage" content="%PUBLIC_URL%/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <script src="https://static.codepen.io/assets/embed/ei.js"></script>
-
     <title>CodeBook</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <noscript>Você precisa habilitar Javascript para visualizar esse app.</noscript>
+    <div id="root" style="opacity: 0;"></div>
   </body>
 </html>
