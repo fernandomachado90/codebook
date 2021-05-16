@@ -10,6 +10,15 @@ body {
   animation: fadein 4s;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242CC;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
