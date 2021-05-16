@@ -3,12 +3,18 @@ import "./Book.css"
 import "./BookContent.css"
 
 const settings = {
+  themes: ["Circuit", "Cogs"],
   pages: 3,
 }
 
+function randomTheme() {
+  const random = Math.floor(Math.random() * settings.themes.length)
+  return settings.themes[random]
+}
+const theme = randomTheme()
+
 function Book({ className }) {
   const [content, setContent] = useState()
-
   const [page, setPage] = useState(0)
   const handlePrevPage = () => {
     if (0 < page) setPage(page - 1)
@@ -44,7 +50,7 @@ function Book({ className }) {
           </button>
         </div>
       </nav>
-      <div className="Content">{content?.body}</div>
+      <div className={`Content ${theme}`}>{content?.body}</div>
       <Footer />
     </div>
   )
