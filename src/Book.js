@@ -63,7 +63,7 @@ function Footer() {
       © 2020—{year} CodeBook
       <a
         className="Link"
-        href="https://github.com/fernandomachado90/janela-web"
+        href="https://github.com/fernandomachado90/codebook"
         target="_blank"
         rel="noopener noreferrer"
       >

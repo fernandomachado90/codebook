@@ -1,4 +1,4 @@
-# janela-web
+# codebook
 
 Open-source learning tool that allows to users to follow a **textbook** while practicing **HTML**, **CSS** and **JS** using a live code editor.
 
