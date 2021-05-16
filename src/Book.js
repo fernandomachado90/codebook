@@ -32,9 +32,7 @@ function Book({ className }) {
           body: body,
         })
       })
-      .catch((err) => {
-        console.error(err)
-      })
+      .catch(console.error)
   }, [page])
 
   return (

@@ -3,11 +3,11 @@ import React from "react"
 export const title = "Fontes & Cores"
 export const body = (
   <div>
-    <h1>hello</h1>
-    <h2>turn</h2>
-    <h3>your</h3>
-    <h4>radio</h4>
-    <h5>on</h5>
-    <h6>!</h6>
+    <h1>Vestibulum</h1>
+    <h2>Vestibulum</h2>
+    <h3>Vestibulum</h3>
+    <h4>Vestibulum</h4>
+    <h5>Vestibulum</h5>
+    <h6>Vestibulum</h6>
   </div>
 )

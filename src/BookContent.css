@@ -36,9 +36,10 @@
 }
 
 .Content h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .Content h6 {
   font-size: 12px;
+  text-transform: uppercase;
 }
