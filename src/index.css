@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #424242CC;
+  background: #424242cc;
 }
 
 @keyframes fadein {

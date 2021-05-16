@@ -1,6 +1,7 @@
 .Content img {
   display: block;
   margin: 6px auto;
+  max-width: 100%;
 }
 
 .Content p,

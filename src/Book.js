@@ -25,14 +25,7 @@ function Book({ className }) {
   }
 
   useEffect(() => {
-    import(`./pages/${page}.js`)
-      .then(({ title, body }) => {
-        setContent({
-          title: title,
-          body: body,
-        })
-      })
-      .catch(console.error)
+    import(`./pages/${page}.js`).then(setContent).catch(console.error)
   }, [page])
 
   return (

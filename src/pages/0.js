@@ -41,7 +41,7 @@ export const body = (
       ornare auctor mauris. Mauris luctus, leo sit amet porttitor pretium, dui neque hendrerit risus, vitae tincidunt
       tellus dolor sed est. Fusce sit amet sagittis dui. Nullam tempus molestie nulla, id iaculis odio fermentum quis.
       Vivamus blandit condimentum tincidunt.
-    </p>{" "}
+    </p>
     <p>
       Vestibulum faucibus nisi ante, ut pretium diam vehicula molestie. Pellentesque habitant morbi tristique senectus
       et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
@@ -50,7 +50,7 @@ export const body = (
       ornare auctor mauris. Mauris luctus, leo sit amet porttitor pretium, dui neque hendrerit risus, vitae tincidunt
       tellus dolor sed est. Fusce sit amet sagittis dui. Nullam tempus molestie nulla, id iaculis odio fermentum quis.
       Vivamus blandit condimentum tincidunt.
-    </p>{" "}
+    </p>
     <p>
       Vestibulum faucibus nisi ante, ut pretium diam vehicula molestie. Pellentesque habitant morbi tristique senectus
       et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
@@ -59,7 +59,7 @@ export const body = (
       ornare auctor mauris. Mauris luctus, leo sit amet porttitor pretium, dui neque hendrerit risus, vitae tincidunt
       tellus dolor sed est. Fusce sit amet sagittis dui. Nullam tempus molestie nulla, id iaculis odio fermentum quis.
       Vivamus blandit condimentum tincidunt.
-    </p>{" "}
+    </p>
     <p>
       Vestibulum faucibus nisi ante, ut pretium diam vehicula molestie. Pellentesque habitant morbi tristique senectus
       et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
