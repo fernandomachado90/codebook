@@ -9,7 +9,7 @@
 @media only screen and (max-width: 992px) {
   .Box {
     width: 100%;
-    height: calc(100% - 50px);
+    height: calc(100% - 112px);
   }
 }
 

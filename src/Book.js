@@ -4,6 +4,7 @@ import "./BookContent.css"
 
 const settings = {
   themes: ["Circuit", "Cogs"],
+  index: 0,
   pages: 3,
 }
 
@@ -15,7 +16,7 @@ const theme = randomTheme()
 
 function Book({ className }) {
   const [content, setContent] = useState()
-  const [page, setPage] = useState(0)
+  const [page, setPage] = useState(settings.index)
   const handlePrevPage = () => {
     if (0 < page) setPage(page - 1)
   }
@@ -24,13 +25,16 @@ function Book({ className }) {
   }
 
   useEffect(() => {
-    setContent()
-    import(`./pages/${page}.js`).then(({ title, body }) => {
-      setContent({
-        title: title,
-        body: body,
+    import(`./pages/${page}.js`)
+      .then(({ title, body }) => {
+        setContent({
+          title: title,
+          body: body,
+        })
       })
-    })
+      .catch((err) => {
+        console.error(err)
+      })
   }, [page])
 
   return (
@@ -39,15 +43,11 @@ function Book({ className }) {
         <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         <div className="Title">{content?.title}</div>
         <div className="Navigation">
-          <button onClick={handlePrevPage} disabled={!content}>
-            {"<"}
-          </button>
+          <button onClick={handlePrevPage}>{"<"}</button>
           <span>
             {page}/{settings.pages}
           </span>
-          <button onClick={handleNextPage} disabled={!content}>
-            {">"}
-          </button>
+          <button onClick={handleNextPage}>{">"}</button>
         </div>
       </nav>
       <div className={`Content ${theme}`}>{content?.body}</div>

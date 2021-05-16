@@ -45,6 +45,11 @@
     font-size: 20px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .Book .Header .Title {
+    font-size: 18px;
+  }
+}
 
 .Book .Header .Navigation {
   display: flex;
@@ -53,22 +58,29 @@
 }
 
 .Book .Header .Navigation span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 0.6px;
   margin-top: 3px;
   padding: 0 6px;
+  height: 40px;
+  width: 32px;
 }
 
 .Book .Header .Navigation button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   color: #eaeaea;
   background-color: #424242;
   border: none;
   cursor: pointer;
+  padding: 1px 6px;
   margin-top: 4px;
-  line-height: 39px;
   height: 40px;
   width: 30px;
   -webkit-transition: color 200ms ease, background-color 200ms ease, box-shadow 50ms ease, -webkit-box-shadow 50ms ease;
