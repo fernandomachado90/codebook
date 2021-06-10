@@ -2,7 +2,7 @@ import React from "react"
 
 export const title = "Listas Ordenadas"
 export const body = (
-  <div>
+  <>
     <img alt="GitHub" src={`${process.env.PUBLIC_URL}/android-icon-192x192.png`} />
     <p>
       Praesent rutrum ut metus eu aliquam. Ut suscipit odio at mauris pharetra, et auctor tellus consequat. Etiam at
@@ -31,5 +31,5 @@ export const body = (
       mi egestas, ornare odio. Nulla luctus augue in sem congue, vitae rutrum mi commodo. Maecenas mollis risus nec ex
       tincidunt maximus.
     </p>
-  </div>
+  </>
 )

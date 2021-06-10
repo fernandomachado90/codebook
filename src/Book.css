@@ -109,11 +109,10 @@
 }
 
 .Book .Content {
+  display: block;
   height: calc(100% - 100px);
   padding: 10px 20px;
   overflow: auto;
-  align-items: flex-start;
-  text-align: justify;
   background-color: #ffffff;
 }
 

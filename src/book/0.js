@@ -2,7 +2,7 @@ import React from "react"
 
 export const title = "CodeBook"
 export const body = (
-  <div>
+  <>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lacinia risus, eu tincidunt eros.
       Pellentesque lectus lorem, dapibus at augue in, condimentum auctor sem. Integer eu mattis sem. Class aptent taciti
@@ -69,5 +69,5 @@ export const body = (
       tellus dolor sed est. Fusce sit amet sagittis dui. Nullam tempus molestie nulla, id iaculis odio fermentum quis.
       Vivamus blandit condimentum tincidunt.
     </p>
-  </div>
+  </>
 )

@@ -2,7 +2,7 @@ import React from "react"
 
 export const title = "Tabelas"
 export const body = (
-  <div>
+  <>
     <p>
       Vestibulum faucibus nisi ante, ut pretium diam vehicula molestie. Pellentesque habitant morbi tristique senectus
       et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
@@ -18,5 +18,5 @@ export const body = (
       et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Pellentesque at lacinia sapien. Nulla porta ut
       ante nec placerat.
     </p>
-  </div>
+  </>
 )
