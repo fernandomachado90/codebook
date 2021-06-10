@@ -4,6 +4,10 @@
   max-width: 100%;
 }
 
+.Content b {
+  font-weight: 900;
+}
+
 .Content p,
 .Content h1,
 .Content h2,
@@ -16,16 +20,25 @@
   color: #28282a;
 }
 
+.Content h1,
+.Content h2,
+.Content h3,
+.Content h4,
+.Content h5,
+.Content h6 {
+  text-transform: uppercase;
+}
+
 .Content p {
   font-size: 16px;
 }
 
 .Content h1 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .Content h2 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .Content h3 {
@@ -33,14 +46,13 @@
 }
 
 .Content h4 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .Content h5 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .Content h6 {
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: 18px;
 }
