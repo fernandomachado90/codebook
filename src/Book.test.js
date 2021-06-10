@@ -2,14 +2,14 @@ import React from "react"
 import { render, act } from "@testing-library/react"
 import Book from "./Book"
 
-jest.mock("./pages/0.js", () => {
+jest.mock("./book/0.js", () => {
   return {
     title: "title zero",
     body: <>body zero</>,
   }
 })
 
-jest.mock("./pages/1.js", () => {
+jest.mock("./book/1.js", () => {
   return {
     title: "title one",
     body: <>body one</>,
@@ -23,7 +23,7 @@ test("renders Book box", async () => {
   expect(header.parentElement).toHaveClass("Header")
 
   const content = await findByText(/body zero/i)
-  expect(content).toHaveClass("Content")
+  expect(content.className).toMatch(/Content Theme-\w*/)
 
   const footer = getByText(/2020/i)
   expect(footer).toHaveClass("Footer")

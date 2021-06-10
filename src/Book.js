@@ -3,14 +3,14 @@ import "./Book.css"
 import "./BookContent.css"
 
 const settings = {
-  themes: ["Circuit", "Cogs"],
   index: 0,
   pages: 3,
 }
 
 function randomTheme() {
-  const random = Math.floor(Math.random() * settings.themes.length)
-  return settings.themes[random]
+  const themes = ["Circuit", "Cogs"]
+  const random = Math.floor(Math.random() * themes.length)
+  return themes[random]
 }
 const theme = randomTheme()
 
@@ -25,7 +25,7 @@ function Book({ className }) {
   }
 
   useEffect(() => {
-    import(`./pages/${page}.js`).then(setContent).catch(console.error)
+    import(`./book/${page}.js`).then(setContent).catch(console.error)
   }, [page])
 
   return (
@@ -41,7 +41,7 @@ function Book({ className }) {
           <button onClick={handleNextPage}>{">"}</button>
         </div>
       </nav>
-      <div className={`Content ${theme}`}>{content?.body}</div>
+      <div className={`Content Theme-${theme}`}>{content?.body}</div>
       <Footer />
     </div>
   )
