@@ -1,31 +1,24 @@
 import React, { useEffect, useState } from "react"
 import "./Book.css"
 import "./BookContent.css"
+import { fetchBookPages, selectRandomTheme } from "./BookAPI"
 
-const settings = {
-  index: 0,
-  pages: 3,
-}
-
-function randomTheme() {
-  const themes = ["Circuit", "Cogs"]
-  const random = Math.floor(Math.random() * themes.length)
-  return themes[random]
-}
-const theme = randomTheme()
+const theme = selectRandomTheme()
+const book = fetchBookPages()
+const pages = book.length - 1
 
 function Book({ className }) {
   const [content, setContent] = useState()
-  const [page, setPage] = useState(settings.index)
+  const [page, setPage] = useState(0)
   const handlePrevPage = () => {
     if (0 < page) setPage(page - 1)
   }
   const handleNextPage = () => {
-    if (page < settings.pages) setPage(page + 1)
+    if (page < pages) setPage(page + 1)
   }
 
   useEffect(() => {
-    import(`./book/${page}.js`).then(setContent).catch(console.error)
+    import(`${book[page]}`).then(setContent).catch(console.error)
   }, [page])
 
   return (
@@ -36,7 +29,7 @@ function Book({ className }) {
         <div className="Navigation">
           <button onClick={handlePrevPage}>{"<"}</button>
           <span>
-            {page}/{settings.pages}
+            {page}/{pages}
           </span>
           <button onClick={handleNextPage}>{">"}</button>
         </div>
