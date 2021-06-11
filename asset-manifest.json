@@ -6,8 +6,8 @@
     "static/js/1.ad5dc05c.chunk.js.map": "/codebook/static/js/1.ad5dc05c.chunk.js.map",
     "static/js/2.13c07412.chunk.js": "/codebook/static/js/2.13c07412.chunk.js",
     "static/js/2.13c07412.chunk.js.map": "/codebook/static/js/2.13c07412.chunk.js.map",
-    "static/js/3.1ce11d82.chunk.js": "/codebook/static/js/3.1ce11d82.chunk.js",
-    "static/js/3.1ce11d82.chunk.js.map": "/codebook/static/js/3.1ce11d82.chunk.js.map",
+    "static/js/3.56929bce.chunk.js": "/codebook/static/js/3.56929bce.chunk.js",
+    "static/js/3.56929bce.chunk.js.map": "/codebook/static/js/3.56929bce.chunk.js.map",
     "static/js/4.9f8133f5.chunk.js": "/codebook/static/js/4.9f8133f5.chunk.js",
     "static/js/4.9f8133f5.chunk.js.map": "/codebook/static/js/4.9f8133f5.chunk.js.map",
     "static/js/5.3ff9004b.chunk.js": "/codebook/static/js/5.3ff9004b.chunk.js",
@@ -17,8 +17,8 @@
     "main.css": "/codebook/static/css/main.4ee41e43.chunk.css",
     "main.js": "/codebook/static/js/main.5b2cb8dc.chunk.js",
     "main.js.map": "/codebook/static/js/main.5b2cb8dc.chunk.js.map",
-    "runtime-main.js": "/codebook/static/js/runtime-main.e5f07191.js",
-    "runtime-main.js.map": "/codebook/static/js/runtime-main.e5f07191.js.map",
+    "runtime-main.js": "/codebook/static/js/runtime-main.2ac15ec2.js",
+    "runtime-main.js.map": "/codebook/static/js/runtime-main.2ac15ec2.js.map",
     "static/js/9.91a43a4d.chunk.js": "/codebook/static/js/9.91a43a4d.chunk.js",
     "static/js/9.91a43a4d.chunk.js.map": "/codebook/static/js/9.91a43a4d.chunk.js.map",
     "index.html": "/codebook/index.html",
@@ -28,7 +28,7 @@
     "static/js/9.91a43a4d.chunk.js.LICENSE.txt": "/codebook/static/js/9.91a43a4d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5f07191.js",
+    "static/js/runtime-main.2ac15ec2.js",
     "static/js/9.91a43a4d.chunk.js",
     "static/css/main.4ee41e43.chunk.css",
     "static/js/main.5b2cb8dc.chunk.js"
