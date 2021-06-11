@@ -1,0 +1,16 @@
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+//!! Deliberately using an API that's deprecated in node.js because
+
+//!! Discussion: github.com/node-browser-compat/atob/pull/9
+
+//!! this file is for browsers and we expect them to cope with it.
