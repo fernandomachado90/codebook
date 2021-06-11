@@ -4,19 +4,19 @@ import Book from "./Book"
 
 jest.mock("./BookAPI", () => {
   return {
-    fetchBookPages: () => ["./book/0.js", "./book/1.js"],
+    fetchBookPages: () => ["./book/0", "./book/1"],
     selectRandomTheme: () => "Test",
   }
 })
 
-jest.mock("./book/0.js", () => {
+jest.mock("./book/0", () => {
   return {
     title: "title zero",
     body: <>body zero</>,
   }
 })
 
-jest.mock("./book/1.js", () => {
+jest.mock("./book/1", () => {
   return {
     title: "title one",
     body: <>body one</>,
@@ -40,7 +40,7 @@ test("renders Book box", async () => {
   expect(book).toHaveClass("Book", "Box", "Test")
 })
 
-test("Book pages navigation buttons", async () => {
+test("activates Book pages navigation buttons", async () => {
   const { findByText } = render(<Book className="Box Test" />)
 
   const next = await findByText(">")
