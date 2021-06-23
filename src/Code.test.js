@@ -2,6 +2,14 @@ import React from "react"
 import { render } from "@testing-library/react"
 import Code from "./Code"
 
+jest.mock("./code/placeholder", () => ({
+  placeholder: {
+    html: `<body></body>`,
+    css: `body { };`,
+    js: `//one-line comment for testing purposes`,
+  },
+}))
+
 test("renders Code box", () => {
   const { container } = render(<Code className="Box Test" />)
 

@@ -1,23 +1,11 @@
 import React from "react"
 import "./Code.css"
-
-const DEFAULT = {
-  html: `<body>
-
-</body>
-`,
-  css: `body {
-  
-};
-`,
-  js: `// Pressione F12 para acessar o Console.
-`,
-}
+import { placeholder } from "./code/placeholder"
 
 function Code({ title, html, css, js, className }) {
-  if (html === true) html = DEFAULT.html
-  if (css === true) css = DEFAULT.css
-  if (js === true) js = DEFAULT.js
+  if (html === true) html = placeholder.html
+  if (css === true) css = placeholder.css
+  if (js === true) js = placeholder.js
 
   return (
     <div className={`Code ${className ? className : ""}`}>
