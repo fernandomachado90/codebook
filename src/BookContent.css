@@ -1,12 +1,26 @@
 .Content img {
   display: block;
-  margin: 6px auto;
+  margin: 12px auto;
   max-width: 100%;
 }
 
-.Content a {
-  color: #ff8a00;
-  font-weight: 900;
+.Content table {
+  display: table;
+  margin: 12px auto;
+}
+
+.Content td {
+  border: 1px solid black;
+  padding: 24px;
+}
+
+.Content ul {
+  list-style-type: square;
+}
+
+.Content li {
+  margin-left: 24px;
+  line-height: 150%;
 }
 
 .Content a:hover {
@@ -25,7 +39,7 @@
 .Content h5,
 .Content h6 {
   padding: 6px 0;
-  line-height: normal;
+  line-height: 150%;
   color: #28282a;
 }
 
