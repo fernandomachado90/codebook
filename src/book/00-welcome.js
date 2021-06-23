@@ -35,7 +35,7 @@ export const body = (
     </p>
 
     <h2>Colabore</h2>
-    <p>Caso tenha interesse, você pode fazer parte desse projeto de diferentes frentes:</p>
+    <p>Caso tenha interesse, você pode fazer parte desse projeto em diferentes frentes:</p>
 
     <ul>
       <li>revisando o material de ensino;</li>
