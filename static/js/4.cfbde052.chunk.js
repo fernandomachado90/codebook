@@ -1,0 +1,2 @@
+(this.webpackJsonpcodebook=this.webpackJsonpcodebook||[]).push([[4],{22:function(e,t,o){"use strict";o.r(t);o(1);var n=o(87),c=o(5),r=o(0);jest.mock("./Book",(function(){return function(e){e.props;return Object(r.jsx)("div",{children:"Book"})}})),jest.mock("./Code",(function(){return function(e){e.props;return Object(r.jsx)("div",{children:"Code"})}})),test("renders App",(function(){var e=Object(n.b)(Object(r.jsx)(c.default,{})).container.firstChild;expect(e).toBeInTheDocument(),expect(e).toHaveClass("App")}))}}]);
+//# sourceMappingURL=4.cfbde052.chunk.js.map
