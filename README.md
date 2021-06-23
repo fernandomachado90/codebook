@@ -34,7 +34,13 @@ Launches the test runner in the interactive watch mode.
 
 Publishes static page to GitHub Pages using [gh-pages](https://github.com/tschaub/gh-pages). Tutorial available [here](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
 
-## References
+## Contributing
+
+There are many ways of contributing to this project, from minor typo fixes and code refactoring to adding whole new pages to the book!
+
+The book pages are imported from the [`src/book`](src/book/) directory, in alphabetic order. To get started and understand how your changes impact the book, try adding your name to the [credits page](src/book/99-credits.js).
+
+## Credits
 
 - Powered by [CodePen Prefill Embeds](https://blog.codepen.io/documentation/prefill-embeds/)
 - Patterns by [Hero Patterns](http://www.heropatterns.com/)
