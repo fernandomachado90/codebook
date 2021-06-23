@@ -47,7 +47,7 @@ function Footer() {
       © 2020—{year} CodeBook
       <a
         className="Link"
-        href="https://github.com/fernandomachado90/codebook"
+        href="https://github.com/fernandomachado90/codebook#contributing"
         target="_blank"
         rel="noopener noreferrer"
       >

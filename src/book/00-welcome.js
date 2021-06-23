@@ -12,7 +12,7 @@ export const body = (
       que você encontra na <b>internet</b> (como esse tutorial!)
     </p>
 
-    <h2>Teoria + Prática</h2>
+    <h2>Teoria + Prática + Página</h2>
     <p>A plataforma é dividida em três janelas:</p>
 
     <table>
@@ -25,8 +25,8 @@ export const body = (
 
     <p>
       Navegando nas páginas do <b>material</b>, você encontra explicações de conceitos fundamentais da web, acompanhados
-      de propostas de atividade, que podem ser imediatamente exercitadas na janela de <b>código</b> enquanto você
-      acompanha seu progresso, ao vivo, na janela de <b>resultado</b>.
+      de propostas de atividades, que podem ser exercitadas na janela de <b>código</b> enquanto você acompanha o
+      progresso de sua página, ao vivo, na janela de <b>resultado</b>.
     </p>
 
     <p>
@@ -48,7 +48,11 @@ export const body = (
     </ul>
 
     <p>
-      Acesse o <a href="https://github.com/fernandomachado90/codebook">GitHub</a> do projeto e saiba como colaborar.
+      Acesse o{" "}
+      <a target="_blank" rel="noreferrer" href="https://github.com/fernandomachado90/codebook#contributing">
+        GitHub
+      </a>{" "}
+      do projeto e saiba como colaborar.
     </p>
   </>
 )
