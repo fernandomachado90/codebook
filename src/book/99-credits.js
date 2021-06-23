@@ -25,7 +25,7 @@ export const body = (
       se tornou aberto a contribuições da comunidade.
     </p>
 
-    <p>Esta é uma lista das pessoas que contribuíram até agora:</p>
+    <p>Essa é uma lista das pessoas que contribuíram até agora:</p>
 
     <ul>
       <li>Fernando Machado</li>
