@@ -3,12 +3,12 @@ import { render, act } from "@testing-library/react"
 import Book from "./Book"
 
 jest.mock("./BookAPI", () => ({
-  fetchBookPages: () => ["./testbook/00-start", "./testbook/99-end"],
+  fetchBookPages: () => ["./book/00-start", "./book/99-end"],
   selectRandomTheme: () => "Test",
 }))
 
 jest.mock(
-  "./testbook/00-start",
+  "./book/00-start",
   () => ({
     title: "hello",
     body: <>this is a test</>,
@@ -17,7 +17,7 @@ jest.mock(
 )
 
 jest.mock(
-  "./testbook/99-end",
+  "./book/99-end",
   () => ({
     title: "goodbye",
     body: <>hope all went well</>,
