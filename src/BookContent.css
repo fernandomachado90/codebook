@@ -31,6 +31,10 @@
   font-weight: 900;
 }
 
+.Content i {
+  font-style: italic;
+}
+
 .Content p,
 .Content h1,
 .Content h2,
