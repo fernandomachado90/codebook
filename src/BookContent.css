@@ -4,6 +4,15 @@
   max-width: 100%;
 }
 
+.Content a {
+  color: #ff8a00;
+  font-weight: 900;
+}
+
+.Content a:hover {
+  opacity: 0.95;
+}
+
 .Content b {
   font-weight: 900;
 }
@@ -31,6 +40,7 @@
 
 .Content p {
   font-size: 16px;
+  line-height: 24px;
 }
 
 .Content h1 {
