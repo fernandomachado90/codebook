@@ -4,13 +4,19 @@
   max-width: 100%;
 }
 
+.Content code {
+  display: block;
+  margin: 12px auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .Content table {
   display: table;
   margin: 12px auto;
 }
 
 .Content td {
-  border: 1px solid black;
+  border: 1px solid #28282a;
   padding: 24px;
 }
 
