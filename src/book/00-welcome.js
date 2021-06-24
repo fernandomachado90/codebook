@@ -38,13 +38,18 @@ export const body = (
     <p>Caso tenha interesse, você pode fazer parte desse projeto em diferentes frentes:</p>
 
     <ul>
-      <li>revisando o material de ensino;</li>
-      <li>adicionando novas páginas ao material;</li>
-      <li>incluindo lições básicas de Javascript;</li>
-      <li>melhorando a usabilidade da plataforma;</li>
-      <li>refatorando o código-fonte da aplicação;</li>
-      <li>recomendando o CodeBook pra alguém;</li>
-      <li>contribuindo com alguma outra ideia!</li>
+      <li>revisando o material de ensino</li>
+      <li>adicionando novas páginas ao material (Javascript, alguém?)</li>
+      <li>melhorando a usabilidade da plataforma</li>
+      <li>refatorando o código-fonte da app</li>
+      <li>recomendando o CodeBook pra alguém</li>
+      <li>
+        contribuindo com{" "}
+        <a rel="noreferrer" href="https://forms.gle/VrLg2xwcPCDKG5cg7" target="_blank">
+          sugestões e feedbacks
+        </a>
+        !
+      </li>
     </ul>
 
     <p>
