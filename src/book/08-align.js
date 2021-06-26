@@ -3,7 +3,7 @@ import React from "react"
 export const title = "CSS"
 export const body = (
   <>
-    <h1>Alinhamento</h1>
+    <h1>Alinhamentos</h1>
 
     <p>
       Podemos definir um alinhamento horizontal para o texto contido em um elemento, como por exemplo, um parágrafo

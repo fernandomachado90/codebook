@@ -3,11 +3,11 @@ import React from "react"
 export const title = "CSS"
 export const body = (
   <>
-    <h1>Fonte</h1>
+    <h1>Fontes</h1>
 
     <h3>Família</h3>
     <p>
-      <b>font-family: </b> "_____"; <i>(nome da fonte, entre aspas se houver espaços)</i>
+      <b>font-family: </b> "_____"; <i>(nome da fonte, entre aspas se houver espaços. )</i>
     </p>
 
     <p>

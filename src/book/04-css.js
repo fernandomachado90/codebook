@@ -3,7 +3,7 @@ import React from "react"
 export const title = "CSS"
 export const body = (
   <>
-    <h1>Estilo</h1>
+    <h1>Estilos</h1>
 
     <p>
       CSS (Cascading Style Sheet) é a linguagem responsável por definir o <b>estilo</b> das páginas, descrevendo regras

@@ -3,7 +3,7 @@ import React from "react"
 export const title = "html"
 export const body = (
   <>
-    <h1>Texto</h1>
+    <h1>Textos</h1>
 
     <h3>Cabeçalho</h3>
     <p>
