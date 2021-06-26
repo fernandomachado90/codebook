@@ -61,14 +61,14 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`
-h1 {
+      <pre>{`h1 {
   font-family: "Arial Narrow";
   font-size: 32px;
   font-weight: 700;
   font-style: italic;
   text-decoration: line-through;
 }
+
 <h1>título perigosamente customizado</h1>`}</pre>
     </code>
 
