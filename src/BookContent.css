@@ -24,6 +24,15 @@
   padding: 24px;
 }
 
+.Content ol,
+.Content ul {
+  margin: 12px auto;
+}
+
+.Content ol {
+  list-style-type: decimal;
+}
+
 .Content ul {
   list-style-type: square;
 }
