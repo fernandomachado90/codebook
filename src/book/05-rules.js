@@ -5,11 +5,12 @@ export const body = (
   <>
     <h1>Regras</h1>
 
-    <h3>seletores</h3>
     <p>
       Criando um elemento<b>&lt;style&gt;</b> ou usando um arquivo dedicado (aba CSS no editor), podemos definir regras
       de estilos válidas para todos os elementos de nossa página.
     </p>
+
+    <h3>Seletores</h3>
 
     <p>
       Para definir regras gerais, precisamos utilizar seletores: marcações que referenciam os atributos <b>id=""</b> e{" "}
