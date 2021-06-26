@@ -45,7 +45,7 @@ export const body = (
       <li>recomendando o CodeBook pra alguém</li>
       <li>
         contribuindo com{" "}
-        <a rel="noreferrer" href="https://forms.gle/VrLg2xwcPCDKG5cg7" target="_blank">
+        <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
           sugestões e feedbacks
         </a>
         !
@@ -54,7 +54,7 @@ export const body = (
 
     <p>
       Acesse o{" "}
-      <a target="_blank" rel="noreferrer" href="https://github.com/fernandomachado90/codebook#contributing">
+      <a target="_blank" rel="noreferrer" href={process.env.REACT_APP_CONTRIBUTING_URL}>
         GitHub
       </a>{" "}
       do projeto e saiba como colaborar.

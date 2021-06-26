@@ -57,12 +57,7 @@ function Footer() {
       <br />
       2020—{year}
       <span>{formatTimestamp(seconds)}</span>
-      <a
-        className="Link"
-        href="https://github.com/fernandomachado90/codebook#contributing"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a className="Link" href={process.env.REACT_APP_CONTRIBUTING_URL} target="_blank" rel="noopener noreferrer">
         <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
         Colabore
       </a>
