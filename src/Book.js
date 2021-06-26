@@ -41,10 +41,22 @@ function Book({ className }) {
 }
 
 function Footer() {
+  const [seconds, setSeconds] = useState(0)
+  const formatTimestamp = (seconds) => new Date(seconds * 1000).toISOString().substr(11, 8)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSeconds((seconds) => seconds + 1)
+    }, 1000)
+    return () => clearInterval(interval)
+  }, [])
+
   const year = new Date().getFullYear()
   return (
     <footer className="Footer">
-      © 2020—{year} CodeBook
+      © CodeBook
+      <br />
+      2020—{year}
+      <span>{formatTimestamp(seconds)}</span>
       <a
         className="Link"
         href="https://github.com/fernandomachado90/codebook#contributing"

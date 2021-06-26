@@ -37,6 +37,9 @@ test("renders Book box", async () => {
   const footer = getByText(/2020—\d{4}/i)
   expect(footer).toHaveClass("Footer")
 
+  const timestamp = getByText(/00:00:\d{2}/i)
+  expect(timestamp).toBeInTheDocument()
+
   const book = container.firstChild
   expect(book).toBeInTheDocument()
   expect(book).toHaveClass("Book", "Box", "Test")
