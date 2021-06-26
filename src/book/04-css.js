@@ -1,23 +1,44 @@
 import React from "react"
 
-export const title = "Estilos"
+export const title = "CSS"
 export const body = (
   <>
-    <h1>CSS</h1>
+    <h1>Estilo</h1>
 
     <p>
-      CSS (Cascading Style Sheet) é a linguagem responsável por <b>decorar</b> páginas web, descrevendo regras que
-      definem como elementos serão exibidos.
+      CSS (Cascading Style Sheet) é a linguagem responsável por definir o <b>estilo</b> das páginas, descrevendo regras
+      que definem a forma como elementos serão exibidos.
     </p>
     <p>
-      Numa analogia com o corpo humano, podemos dizer que, enquanto o HTML é o esqueleto que estrutura as partes do
+      Numa analogia com o corpo humano podemos dizer que, enquanto o HTML é o esqueleto que estrutura as partes do
       corpo, o CSS é a pele, os panos e os acessórios.
     </p>
 
-    <h2>Síntaxe</h2>
-    <p></p>
+    <h2>Propriedade</h2>
+    <p>
+      A estrutura de declaração de estilos é <b>propriedade: valor</b>. Por exemplo, para definir a cor de um texto como
+      vermelho, declaramos o estilo:
+    </p>
 
-    <h3>TK</h3>
-    <p></p>
+    <code>color: red;</code>
+
+    <p>Essa declaração pode feita de duas formas: por elemento ou criando regras gerais.</p>
+
+    <h3>elemento + style</h3>
+
+    <p>
+      Ao adicionar o atributo <b>style=""</b> em qualquer elemento HTML, podemos definir estilos válidos somente para
+      seu conteúdo.
+    </p>
+
+    <code>
+      <pre>{`<p style="color: blue;">esse parágrafo é azul</p>
+<p>já esse não é</p>
+<p>esse também não</p>`}</pre>
+    </code>
+
+    <p style={{ color: "blue" }}>esse parágrafo é azul</p>
+    <p>já esse não é</p>
+    <p>esse também não</p>
   </>
 )

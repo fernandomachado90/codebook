@@ -1,13 +1,13 @@
 import React from "react"
 
-export const title = "Estrutura"
+export const title = "HTML"
 export const body = (
   <>
-    <h1>HTML</h1>
+    <h1>Estrutura</h1>
 
     <p>
-      HTML (Hypertext Markup Language) é a linguagem utilizada para <b>estruturar</b> o conteúdo e organizar os
-      elementos que compõem uma página, tais como parágrafos, imagens, listas, links, tabelas, botões e outros.
+      HTML (Hypertext Markup Language) é a linguagem usada para definir a <b>estrutura</b> do conteúdo de uma página,
+      declarando elementos como parágrafos, imagens, listas, links, tabelas, botões e outros.
     </p>
 
     <h2>Elementos</h2>
@@ -24,24 +24,30 @@ export const body = (
       O conteúdo de um página web é o conteúdo do elemento <b>&lt;body&gt;</b>
     </p>
 
-    <h3>Cabeçalho</h3>
-    <p>
-      As tags <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b>,
-      <b>&lt;h6&gt;</b> são usadas para representar títulos e cabeçalhos, sendo o nível 1 é o mais alto e o 6 o mais
-      baixo.
-    </p>
+    <code>
+      <pre>{`<body>
 
-    <h1>h1</h1>
-    <h2>h2</h2>
-    <h3>h3</h3>
-    <h4>h4</h4>
-    <h5>h5</h5>
-    <h6>h6</h6>
+    (conteúdo) 
+
+</body>`}</pre>
+    </code>
 
     <h3>Parágrafo</h3>
     <p>
       Os blocos de texto que você lê nesse guia estão dentro de elementos <b>&lt;p&gt;</b>
     </p>
-    <code>&lt;p&gt;Os blocos de texto que você lê nesse guia...&lt;/p&gt;</code>
+    <code>
+      <pre>{`<p>Os blocos de texto que você lê nesse guia...</p>`}</pre>
+    </code>
+
+    <h3>Comentário</h3>
+    <p>
+      As vezes, queremos anotar algum conteúdo no arquivo HTML para lembrar de alguma coisa (explicações, referências,
+      etc.). Como esse conteúdo é relevante somente para quem desenvolve, usamos comentários para que o navegador
+      esconda esse conteúdo.
+    </p>
+    <code>
+      <pre>{`<!-- o que escrevermos aqui não aparece na página -->`}</pre>
+    </code>
   </>
 )

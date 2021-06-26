@@ -7,7 +7,7 @@ export const placeholder = {
 </body>
   `,
   css: `body {
-    
+    font-family: "Lato", "Lucida Sans Unicode", Tahoma, Sans-Serif;
 };
   `,
   js: undefined,

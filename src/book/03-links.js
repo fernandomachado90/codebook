@@ -1,8 +1,10 @@
 import React from "react"
 
-export const title = "Externos"
+export const title = "HTML"
 export const body = (
   <>
+    <h1>Referência externa</h1>
+
     <h3>Links</h3>
     <p>
       Para incluir um link para outra página, usamos a tag <b>&lt;a&gt;</b> acompanhada do atributo <b>href</b> com o
@@ -17,16 +19,12 @@ export const body = (
       janela, adicione o atributo <b>target="_blank"</b>.
     </p>
     <code>
-      &lt;p&gt;
-      <br />
-      &emsp;&emsp;clique &lt;a href="https://www.google.com/"
-      <br />
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;target="_blank"&gt;aqui&lt;/a&gt;
-      <br />
-      &emsp;&emsp;para fazer sua busca :)
-      <br />
-      &lt;/p&gt;
+      <pre>{`<p>
+  clique <a href="https://www.google.com/" 
+            target="_blank">aqui</a> para fazer sua busca :)
+</p>`}</pre>
     </code>
+
     <p>
       clique{" "}
       <a href="https://www.google.com/" target="_blank" rel="noreferrer">

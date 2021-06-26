@@ -10,6 +10,10 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+.Content pre {
+  white-space: pre-wrap;
+}
+
 .Content table {
   display: table;
   margin: 12px auto;
