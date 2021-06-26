@@ -100,5 +100,24 @@ export const body = (
       <span style={{ color: "whitesmoke" }}>whitesmoke</span> <span style={{ color: "yellowgreen" }}>yellowgreen</span>{" "}
       <span style={{ color: "rebeccapurple" }}>rebeccapurple</span>{" "}
     </p>
+
+    <p>
+      Além das palavras reservadas, você pode usar cores customizadas usando códigos <b>hexadecimais</b> ou <b>RGB</b>.
+      Use este seletor para encontrar o código da cor: <input type="color" />
+    </p>
+
+    <code>
+      <pre>{`
+h3 {
+  color: #ff6522;
+}
+
+h4 {
+  color: rgb(156,53,186);
+}`}</pre>
+    </code>
+
+    <h3 style={{ color: "#ff6522" }}>#ff6522</h3>
+    <h4 style={{ color: "rgb(156,53,186)" }}>rgb(156,53,186)</h4>
   </>
 )
