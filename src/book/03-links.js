@@ -3,7 +3,7 @@ import React from "react"
 export const title = "HTML"
 export const body = (
   <>
-    <h1>Referência externa</h1>
+    <h1>Recursos</h1>
 
     <h3>Links</h3>
     <p>

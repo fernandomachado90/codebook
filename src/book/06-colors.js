@@ -107,14 +107,15 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`
-.crash-orange {
+      <pre>{`.crash-orange {
   color: #ff6522;
 }
-
 .spyro-purple {
   color: rgb(156,53,186);
-}`}</pre>
+}
+
+<p class="crash-orange">Crash Orange</p>
+<p class="spyro-purple">Spyro Purple</p>`}</pre>
     </code>
 
     <p style={{ color: "#ff6522" }}>Crash Orange</p>
