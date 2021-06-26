@@ -117,7 +117,7 @@ h4 {
 }`}</pre>
     </code>
 
-    <h3 style={{ color: "#ff6522" }}>#ff6522</h3>
-    <h4 style={{ color: "rgb(156,53,186)" }}>rgb(156,53,186)</h4>
+    <h3 style={{ color: "#ff6522" }}>Crash Orange</h3>
+    <h4 style={{ color: "rgb(156,53,186)" }}>Spyro Purple</h4>
   </>
 )
