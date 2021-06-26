@@ -68,7 +68,8 @@ h1 {
   font-weight: 700;
   font-style: italic;
   text-decoration: line-through;
-}`}</pre>
+}
+<h1>título perigosamente customizado</h1>`}</pre>
     </code>
 
     <p
