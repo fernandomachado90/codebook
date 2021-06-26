@@ -108,16 +108,16 @@ export const body = (
 
     <code>
       <pre>{`
-h3 {
+.crash-orange {
   color: #ff6522;
 }
 
-h4 {
+.spyro-purple {
   color: rgb(156,53,186);
 }`}</pre>
     </code>
 
-    <h3 style={{ color: "#ff6522" }}>Crash Orange</h3>
-    <h4 style={{ color: "rgb(156,53,186)" }}>Spyro Purple</h4>
+    <p style={{ color: "#ff6522" }}>Crash Orange</p>
+    <p style={{ color: "rgb(156,53,186)" }}>Spyro Purple</p>
   </>
 )
