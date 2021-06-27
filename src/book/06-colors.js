@@ -6,7 +6,7 @@ export const body = (
     <h1>Cores</h1>
 
     <p>
-      <b>color:</b> _____; <i>(palavra reservada que representa a cor | código hexadecimal | código RGB)</i>
+      <b>color:</b> _____; <i>(palavra reservada para cor | código hexadecimal | código RGB)</i>
     </p>
 
     <p style={{ "text-shadow": "1px 1px 1px black", "text-align": "justify" }}>
