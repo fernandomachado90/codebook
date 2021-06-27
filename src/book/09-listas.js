@@ -6,9 +6,9 @@ export const body = (
     <h1>Listas</h1>
 
     <p>
-      O HTML oferece dois tipos de lista: listas ordenadas (<b>&lt;ol&gt;</b>) e desordenadas (<b>&lt;ul&gt;</b>), que
-      devem ser usadas de acordo com o sentido da lista. Para cada item a ser incluído, é preciso incluir elementos{" "}
-      <i>list-item</i> (<b>&lt;li&gt;</b>) dentro do elemento (<b>&lt;ol&gt;</b> ou <b>&lt;ul&gt;</b>).
+      O HTML oferece dois tipos de lista: listas ordenadas (<b>&lt;ol&gt;</b>) ou desordenadas (<b>&lt;ul&gt;</b>), que
+      devem ser usadas de acordo com o propósito da lista. Para cada item a ser incluído, é preciso incluir elementos{" "}
+      <i>list-item</i> (<b>&lt;li&gt;</b>) como conteúdo de <b>&lt;ol&gt;</b> ou <b>&lt;ul&gt;</b>.
     </p>
 
     <code>

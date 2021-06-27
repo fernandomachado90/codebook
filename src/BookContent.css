@@ -19,7 +19,12 @@
   margin: 12px auto;
 }
 
-.Content td {
+.Content th {
+  font-weight: 900;
+}
+
+.Content td,
+.Content th {
   border: 1px solid #28282a;
   padding: 24px;
 }
