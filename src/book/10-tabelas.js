@@ -40,7 +40,7 @@ export const body = (
   </tr>
 </table>`}</pre>
     </code>
-<br/>
+    <br />
     <table>
       <tr>
         <th>Horário</th>
