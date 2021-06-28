@@ -27,8 +27,8 @@ export const body = (
       <pre>
         {`.banner {
   background: seashell;
-  border: 25px inset deeppink;
-  outline: 25px outset deepskyblue;
+  border: 10px inset deeppink;
+  outline: 10px outset deepskyblue;
 }
 
 <div class="banner" /><br/><br/>
