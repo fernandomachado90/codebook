@@ -6,7 +6,7 @@ export const body = (
     <h1>VALEU!</h1>
 
     <p>
-      Que bom que chegou até aqui! O que achou do curso? Deixe seu{" "}
+      Que bom que chegou até aqui! O que achou do material? Deixe seu{" "}
       <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
         feedback
       </a>
