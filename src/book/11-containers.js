@@ -43,9 +43,9 @@ export const body = (
     <h2>Semântica</h2>
 
     <p>
-      Com blocos (<b>&lt;div&gt;</b>), trechos (<b>&lt;span&gt;</b>) e estilos CSS, podemos construir praticamente
+      Usando blocos (<b>&lt;div&gt;</b>), trechos (<b>&lt;span&gt;</b>) e estilos CSS, podemos construir praticamente
       qualquer coisa na web. No entanto, é considerado boa prática usar elementos que garantam a semântica da página,
-      isto é, não apenas definam sua aparência, mas também indiquem seu sentido. Por exemplo:
+      isto é, não apenas definam sua aparência, mas também indiquem seu propósito ou sentido. Por exemplo:
     </p>
 
     <ul>
