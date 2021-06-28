@@ -5,7 +5,28 @@ export const body = (
   <>
     <h1>VALEU!</h1>
 
-    <p>Que bom que chegou até aqui!</p>
+    <p>
+      Que bom que chegou até aqui! O que achou do curso? Deixe seu{" "}
+      <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
+        feedback
+      </a>
+      ! 💗
+    </p>
+
+    <h2>Próximos passos</h2>
+
+    <p>Essa é uma lista de links para seguir estudando HTML, CSS e tecnologias para web.</p>
+
+    <ul>
+      <li>
+        <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noreferrer">
+          A Complete Guide to Flexbox
+        </a>{" "}
+        <i>(em inglês)</i>
+      </li>
+    </ul>
+
+    <h2>Créditos</h2>
 
     <p>
       Este guia de estudos foi originalmente desenvolvido entre 2018—2020, em mutirões de trabalho voluntário de pessoas

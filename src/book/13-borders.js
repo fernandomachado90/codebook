@@ -74,7 +74,7 @@ export const body = (
   width: 100%;
 }
 
-<div class="circulo" />
+<div class="circulo"></div>
 <div class="banner"><h3>mensagem impactante</h3></div>`}
       </pre>
     </code>

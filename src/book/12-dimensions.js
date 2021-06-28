@@ -33,13 +33,13 @@ export const body = (
 }
 
 <div class="quadrado">//</div>
-<div class="horizontal" />
-<div class="vertical" />`}
+<div class="horizontal"></div>
+<div class="vertical"></div>`}
       </pre>
     </code>
 
     <div style={{ background: "fuchsia", height: "100px", width: "100px" }}>{"//"}</div>
-    <div style={{ background: "yellow", height: "100px", width: "100%" }} />
-    <div style={{ background: "aqua", height: "200px", width: "100px" }} />
+    <div style={{ background: "yellow", height: "100px", width: "100%" }}></div>
+    <div style={{ background: "aqua", height: "200px", width: "100px" }}></div>
   </>
 )

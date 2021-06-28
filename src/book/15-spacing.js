@@ -77,16 +77,16 @@ function renderBoxModel(margin, border, padding) {
   const borderColor = "#9C59D1"
   return (
     <>
-        <code>
-      <pre>
-        {`.box {
+      <code>
+        <pre>
+          {`.box {
   margin: ${margin};
   border: ${border} solid ${borderColor};
   padding: ${padding};
 }
 <div class="box">conteúdo</div>`}
-      </pre>
-    </code>
+        </pre>
+      </code>
       <div style={{ position: "relative", background: spacingColor, padding: margin }}>
         <span style={{ position: "absolute", top: "1px", left: "1px" }}>margin ({margin})</span>
         <div style={{ position: "relative", background: borderColor, padding: border }}>
@@ -99,6 +99,6 @@ function renderBoxModel(margin, border, padding) {
           </div>
         </div>
       </div>
-      </>
+    </>
   )
 }
