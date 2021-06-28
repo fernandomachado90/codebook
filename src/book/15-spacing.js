@@ -68,7 +68,7 @@ export const body = (
     {renderBoxModel("120px", "30px", "0px")}
     {renderBoxModel("0px", "40px", "40px")}
     {renderBoxModel("0px", "50px", "0px")}
-    {renderBoxModel("40px", "1px", "60px")}
+    {renderBoxModel("40px", "0px", "60px")}
   </>
 )
 
@@ -81,7 +81,7 @@ function renderBoxModel(margin, border, padding) {
       <pre>
         {`.box {
   margin: ${margin};
-  border: ${border};
+  border: ${border} solid ${borderColor};
   padding: ${padding};
 }
 <div class="box">conteúdo</div>`}
