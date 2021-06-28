@@ -65,7 +65,7 @@ export const body = (
     </p>
 
     {renderBoxModel("30px", "20px", "70px")}
-    {renderBoxModel("120px", "30px", "0px")}
+    {renderBoxModel("90px", "30px", "0px")}
     {renderBoxModel("0px", "40px", "40px")}
     {renderBoxModel("0px", "50px", "0px")}
     {renderBoxModel("40px", "0px", "60px")}
