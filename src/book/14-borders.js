@@ -64,10 +64,9 @@ export const body = (
   border-style: double; 
   border-color: purple;
   border-radius: 50%;
-  height: 75px;
-  width: 75px;
+  height: 60px;
+  width: 60px;
 }
-
 .banner {
   border: 2px dashed orange;
   height: 50px;
@@ -85,8 +84,8 @@ export const body = (
         borderStyle: "double",
         borderColor: "purple",
         borderRadius: "50%",
-        height: "75px",
-        width: "75px",
+        height: "60px",
+        width: "60px",
       }}
     ></div>
     <div
