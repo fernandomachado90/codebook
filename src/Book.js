@@ -9,22 +9,16 @@ const theme = selectRandomTheme()
 const book = fetchBookPages()
 const pages = book.length - 1
 
-const linkToPrevPage = (page) => {
+const linkToPrevPage = (page) => clamp(page - 1)
+const linkToNextPage = (page) => clamp(page + 1)
+function clamp(page) {
   if (page <= 0) return 0
-  return Number(page) - 1
-}
-
-const linkToNextPage = (page) => {
-  if (page >= pages) return page
-  return Number(page) + 1
-}
-
-function clamp(value, min, max) {
-  return Math.min(Math.max(value, min), max)
+  if (page >= pages) return pages
+  return Number(page)
 }
 
 function Book({ page = 0, className }) {
-  page = clamp(page, 0, pages)
+  page = clamp(page)
   const [content, setContent] = useState()
 
   useEffect(() => {
