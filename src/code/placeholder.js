@@ -5,10 +5,10 @@ export const placeholder = {
         Boas-vindas ao <b>CodeBook</b>!
     </p>
 </body>
-  `,
+`,
   css: `body {
     font-family: "Lato", "Lucida Sans Unicode", Tahoma, Sans-Serif;
 };
-  `,
+`,
   js: undefined,
 }
