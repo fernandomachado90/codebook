@@ -100,3 +100,29 @@ test("render Book pages navigation buttons (end)", async () => {
   const next = await findByText(">")
   expect(next.href).toBe(`${global.window.location.href}2`)
 })
+
+test("render Book pages navigation buttons (clamp min)", async () => {
+  const { findByText } = render(<Book page="-1" />)
+
+  expect(await findByText(/hello/i)).toBeInTheDocument()
+  expect(await findByText(/this is a test/i)).toBeInTheDocument()
+
+  const previous = await findByText("<")
+  expect(previous.href).toBe(`${global.window.location.href}0`)
+
+  const next = await findByText(">")
+  expect(next.href).toBe(`${global.window.location.href}1`)
+})
+
+test("render Book pages navigation buttons (clamp max)", async () => {
+  const { findByText } = render(<Book page="999" />)
+
+  expect(await findByText(/goodbye/i)).toBeInTheDocument()
+  expect(await findByText(/hope all went well/i)).toBeInTheDocument()
+
+  const previous = await findByText("<")
+  expect(previous.href).toBe(`${global.window.location.href}1`)
+
+  const next = await findByText(">")
+  expect(next.href).toBe(`${global.window.location.href}2`)
+})

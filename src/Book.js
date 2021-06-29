@@ -19,7 +19,12 @@ const linkToNextPage = (page) => {
   return Number(page) + 1
 }
 
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max)
+}
+
 function Book({ page = 0, className }) {
+  page = clamp(page, 0, pages)
   const [content, setContent] = useState()
 
   useEffect(() => {
