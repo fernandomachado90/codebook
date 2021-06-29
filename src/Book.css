@@ -140,7 +140,8 @@
 
 .Book .Footer .Link img {
   height: 20px;
-  padding-right: 5px;
+  margin-right: -5px;
+  margin-left: 5px;
 }
 
 .Theme-Circuit {

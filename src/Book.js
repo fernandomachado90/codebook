@@ -63,13 +63,12 @@ function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="Footer">
-      © CodeBook
-      <br />
-      2020—{year}
+      © Codebook
+      <br />2020—{year}
+      
       <span>{formatTimestamp(seconds)}</span>
       <a className="Link" href={process.env.REACT_APP_CONTRIBUTING_URL} target="_blank" rel="noopener noreferrer">
-        <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
-        Colabore
+        Colabore <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} /> 
       </a>
     </footer>
   )
