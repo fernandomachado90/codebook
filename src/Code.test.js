@@ -38,46 +38,46 @@ test("renders CodePen with title", () => {
   expect(codepen).not.toHaveTextContent()
 })
 
-test("renders CodePen with default prefill for html, css and js", () => {
-  const prefill = {
-    html: true,
-    css: true,
-    js: true,
+test("renders CodePen with default placeholder prefill for html, css and js", () => {
+  const placeholder = {
+    html: `<body></body>`,
+    css: `body { };`,
+    js: `//one-line comment for testing purposes`,
   }
 
-  const { getByText } = render(<Code {...prefill} />)
+  const { getByText } = render(<Code />)
 
-  const html = getByText((content) => content.startsWith("<body>"))
+  const html = getByText(placeholder.html)
   expect(html).toBeInTheDocument()
   expect(html).toHaveAttribute("data-lang", "html")
 
-  const css = getByText((content) => content.startsWith("body"))
+  const css = getByText(placeholder.css)
   expect(css).toBeInTheDocument()
   expect(css).toHaveAttribute("data-lang", "css")
 
-  const js = getByText((content) => content.startsWith("//"))
+  const js = getByText(placeholder.js)
   expect(js).toBeInTheDocument()
   expect(js).toHaveAttribute("data-lang", "js")
 })
 
-test("renders CodePen with provided prefill for html, css and js", () => {
-  const prefill = {
+test("renders CodePen with custom provided prefill for html, css and js", () => {
+  const custom = {
     html: `<div>welcome</div>`,
     css: `div {color: purple}`,
     js: `alert('hello')`,
   }
 
-  const { getByText } = render(<Code {...prefill} />)
+  const { getByText } = render(<Code {...custom} />)
 
-  const html = getByText(prefill.html)
+  const html = getByText(custom.html)
   expect(html).toBeInTheDocument()
   expect(html).toHaveAttribute("data-lang", "html")
 
-  const css = getByText(prefill.css)
+  const css = getByText(custom.css)
   expect(css).toBeInTheDocument()
   expect(css).toHaveAttribute("data-lang", "css")
 
-  const js = getByText(prefill.js)
+  const js = getByText(custom.js)
   expect(js).toBeInTheDocument()
   expect(js).toHaveAttribute("data-lang", "js")
 })

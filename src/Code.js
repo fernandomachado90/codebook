@@ -3,12 +3,8 @@ import "./Code.css"
 import { placeholder } from "./code/placeholder"
 
 function Code({ title, html, css, js, className }) {
-  if (html === true) html = placeholder.html
-  if (css === true) css = placeholder.css
-  if (js === true) js = placeholder.js
-
   return (
-    <div className={`Code ${className ? className : ""}`}>
+    <div className={`Code ${className || ""}`}>
       <div
         title="codepen"
         className="codepen"
@@ -17,11 +13,11 @@ function Code({ title, html, css, js, className }) {
         data-theme-id="1"
         data-border="none"
         data-default-tab="html,result"
-        data-prefill={`{"title":"${title ? title : ""}"}`}
+        data-prefill={`{"title":"${title || ""}"}`}
       >
-        <pre data-lang="html">{html}</pre>
-        <pre data-lang="css">{css}</pre>
-        <pre data-lang="js">{js}</pre>
+        <pre data-lang="html">{html || placeholder.html}</pre>
+        <pre data-lang="css">{css || placeholder.css}</pre>
+        <pre data-lang="js">{js || placeholder.js}</pre>
       </div>
     </div>
   )
