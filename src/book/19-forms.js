@@ -34,16 +34,20 @@ export const body = (
       atributo <b>name=""</b> define o nome do campo a ser enviado pelo formulário.
     </p>
 
+    <p>
+      O atributo <b>required</b> pode ser usado para tornar um campo obrigatório.
+    </p>
+
     <code>
       <pre>{`<form>
   <label for="nome">Nome:</label>
-  <input type="text" name="nome" id="nome" />
+  <input type="text" name="nome" id="nome" required />
 
   <label for="email">Email:</label>
-  <input type="email" name="email" id="email" />
+  <input type="email" name="email" id="email" required />
 
   <label for="senha">Senha:</label>
-  <input type="password" name="senha" id="senha" />
+  <input type="password" name="senha" id="senha" required />
 
   <label for="busca">Busca:</label>
   <input type="search" name="busca" id="busca" />
@@ -51,13 +55,13 @@ export const body = (
     </code>
     <form>
       <p>
-        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" />
+        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" required />
       </p>
       <p>
-        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" />
+        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" required />
       </p>
       <p>
-        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" />
+        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" required />
       </p>
       <p>
         <label htmlFor="busca">Busca:</label> <input type="search" name="busca" id="busca" />

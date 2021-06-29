@@ -22,13 +22,13 @@ export const body = (
 
     <form style={{ background: "turquoise" }}>
       <p>
-        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" />
+        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" required />
       </p>
       <p>
-        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" />
+        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" required />
       </p>
       <p>
-        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" />
+        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" required />
       </p>
       <p>
         <label htmlFor="busca">Busca:</label> <input type="search" name="busca" id="busca" />
@@ -122,9 +122,9 @@ export const body = (
       O botão <b>type="reset"</b> limpa todos os dados do form onde está incluído.
     </p>
     <p>
-      Já os botões <b>type="submit"</b> e o <b>&lt;button&gt;</b> tem o mesmo comportamento: enviar os dados dos
-      formulário para processamento no servidor. Experimente preencher o formulário e clicar nesses botões para
-      visualizar seus dados na <b>barra de endereços</b>.
+      Já os botões <b>type="submit"</b> e o <b>&lt;button&gt;</b> tem o mesmo comportamento: enviar os dados dos campos
+      para processamento no servidor. Experimente preencher o formulário e clicar nesses botões para visualizar seus
+      dados na <b>barra de endereços</b>.
     </p>
   </>
 )
