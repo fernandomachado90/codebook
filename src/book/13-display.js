@@ -3,7 +3,7 @@ import React from "react"
 export const title = "CSS"
 export const body = (
   <>
-    <h1>Apresentação</h1>
+    <h1>Display</h1>
 
     <p>
       Do lado CSS das coisas, blocos (<b>&lt;div&gt;</b>) e trechos (<b>&lt;span&gt;</b>) podem ser compreendidos (e
