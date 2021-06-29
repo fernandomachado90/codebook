@@ -130,6 +130,7 @@
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  padding-left: 6px;
 }
 
 .Book .Footer .Link:hover {
@@ -140,8 +141,8 @@
 
 .Book .Footer .Link img {
   height: 20px;
-  margin-right: -5px;
-  margin-left: 5px;
+  margin-right: -3px;
+  margin-left: 6px;
 }
 
 .Theme-Circuit {
