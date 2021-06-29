@@ -30,8 +30,8 @@ export const body = (
     </ul>
 
     <div style={{ textShadow: "1px 1px 1px black", color: "white", background: "white", outline: "3px dashed black" }}>
-      <div style={{ background: "#e40303", height: "25px" }}>
-        uma div padrão (altura customizada para 25px, ocupa uma linha inteira){" "}
+      <div style={{ background: "#e40303", height: "20px" }}>
+        uma div padrão (altura customizada para 20px, ocupa uma linha inteira){" "}
       </div>
       <div style={{ background: "#ff8c00", display: "inline-block", height: "100px", width: "100px" }}>
         uma div inline-block (100x100, compartilha a linha){" "}
@@ -52,7 +52,7 @@ export const body = (
       <pre>
         {`.red {
   background: #e40303;
-  height: 25px;
+  height: 20px;
 }
 .orange {
   background: #ff8c00;
