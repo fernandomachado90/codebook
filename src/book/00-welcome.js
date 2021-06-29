@@ -12,7 +12,7 @@ export const body = (
       que você encontra na <b>internet</b> (como esse tutorial!)
     </p>
 
-    <h2>Teoria + Prática + Página</h2>
+    <h2>Teoria | Prática | Página</h2>
     <p>A plataforma é dividida em três janelas:</p>
 
     <table>
