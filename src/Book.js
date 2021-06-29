@@ -27,7 +27,7 @@ function Book({ page = 0, className }) {
   }, [page])
 
   return (
-    <div className={`Book ${className || ""}`}>
+    <div className={`Book ${className}`}>
       <nav className="Header">
         <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         <div className="Title">{content?.title}</div>

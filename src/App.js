@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" children={<BookWithParams />} />
         <Route path="/:page" children={<BookWithParams />} />
       </Switch>
-      <Code className="Box Double" />
+      <Code title="CodeBook" className="Box Double" />
     </Router>
   )
 }
