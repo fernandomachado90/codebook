@@ -65,11 +65,7 @@ function Footer() {
 
   return (
     <footer className="Footer">
-      <span>
-        © CodeBook
-        <br />
-        2020—{year}
-      </span>
+      © CodeBook<br />2020—{year}
       <span>{formatTimestamp(seconds)}</span>
       <a className="Link" href={process.env.REACT_APP_CONTRIBUTING_URL} target="_blank" rel="noopener noreferrer">
         Colabore <img alt="GitHub" src={`${process.env.PUBLIC_URL}/github.png`} />
