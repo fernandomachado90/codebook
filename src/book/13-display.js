@@ -29,7 +29,7 @@ export const body = (
       </li>
     </ul>
 
-    <div style={{ textShadow: "1px 1px 1px black", color: "white", background: "white", outline: "3px dashed black" }}>
+    <div style={{ textShadow: "1px 1px 1px black", color: "white", outline: "3px dashed black" }}>
       <div style={{ background: "#e40303", height: "20px" }}>
         uma div padrão (altura customizada para 20px, ocupa uma linha inteira){" "}
       </div>

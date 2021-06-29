@@ -53,7 +53,7 @@ export const body = (
   <input type="search" name="busca" id="busca" />
 </form>`}</pre>
     </code>
-    <form>
+    <form style={{ background: "turquoise" }}>
       <p>
         <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" required />
       </p>
@@ -83,7 +83,7 @@ export const body = (
 <label for="instensidade">Intensidade:</label>
 <input type="range" id="instensidade" min="0" max="1000" />`}</pre>
     </code>
-    <form>
+    <form style={{ background: "turquoise" }}>
       <p>
         <label htmlFor="quantidade">Quantidade:</label>{" "}
         <input type="number" name="quantidade" id="quantidade" min="0" max="100" step="5" />
@@ -129,7 +129,7 @@ Transporte:<br/>
 <input type="checkbox" name="veiculo" id="vt" value="t" />
 <label for="vt">táxi</label>`}</pre>
     </code>
-    <form>
+    <form style={{ background: "turquoise" }}>
       <p>
         Gênero:
         <br />
@@ -168,7 +168,7 @@ Transporte:<br/>
 </select>`}</pre>
     </code>
 
-    <form>
+    <form style={{ background: "turquoise" }}>
       <p>
         <label htmlFor="alimentacao">Alimentação:</label>{" "}
         <select name="alimentacao" id="alimentacao">
@@ -206,7 +206,7 @@ Transporte:<br/>
 <label for="anexo">Anexo:</label>
 <input type="file" name="anexo" id="anexo" />`}</pre>
     </code>
-    <form>
+    <form style={{ background: "turquoise" }}>
       <p>
         <label htmlFor="cor">Cor:</label> <input type="color" name="cor" id="cor" />
       </p>
