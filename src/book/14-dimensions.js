@@ -11,25 +11,27 @@ export const body = (
     </p>
 
     <p>
-      <b>height:</b> _____px; <b>width:</b> _____%; <i>(tamanho em pixels | porcentagem da página)</i>
+      <b>height:</b> _____px; <i>(tamanho em pixels | porcentagem da página)</i>
+      <br />
+      <b>width:</b> _____%; <i>(tamanho em pixels | porcentagem da página)</i>
     </p>
 
     <code>
       <pre>
         {`.quadrado {
   background: fuchsia;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
 }
 .horizontal {
   background: yellow;
-  height: 100px;
+  height: 90px;
   width: 100%;
 }
 .vertical {
   background: aqua;
-  height: 200px;
-  width: 100px;
+  height: 180px;
+  width: 90px;
 }
 
 <div class="quadrado">//</div>
@@ -37,9 +39,8 @@ export const body = (
 <div class="vertical"></div>`}
       </pre>
     </code>
-
-    <div style={{ background: "fuchsia", height: "100px", width: "100px" }}>{"//"}</div>
-    <div style={{ background: "yellow", height: "100px", width: "100%" }}></div>
-    <div style={{ background: "aqua", height: "200px", width: "100px" }}></div>
+    <div style={{ background: "fuchsia", height: "90px", width: "90px" }}>{"//"}</div>
+    <div style={{ background: "yellow", height: "90px", width: "100%" }}></div>
+    <div style={{ background: "aqua", height: "180px", width: "90px" }}></div>
   </>
 )
