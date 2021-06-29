@@ -113,7 +113,7 @@ export const body = (
     </code>
 
     <p>
-      Por padrão, o botão simples <b>type="button"</b> não possui comportamento. Ao clicar no botão "Oi!", a função
+      Por padrão, o botão simples <b>type="button"</b> não possui comportamento. Ao clicar no botão <b>Oi!</b>, a função
       Javascript <b>alert("Olá!")</b> é chamada para exibir uma mensagem.
     </p>
     <p>
