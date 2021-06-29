@@ -1,9 +1,9 @@
 import React from "react"
-import { render, act } from "@testing-library/react"
+import { render } from "@testing-library/react"
 import Book from "./Book"
 
 jest.mock("./BookAPI", () => ({
-  fetchBookPages: () => ["./book/00-start", "./book/99-end"],
+  fetchBookPages: () => ["./book/00-start", "./book/50-middle", "./book/99-end"],
   selectRandomTheme: () => "Test",
 }))
 
@@ -17,6 +17,15 @@ jest.mock(
 )
 
 jest.mock(
+  "./book/50-middle",
+  () => ({
+    title: "hey",
+    body: <>halfway there</>,
+  }),
+  { virtual: true }
+)
+
+jest.mock(
   "./book/99-end",
   () => ({
     title: "goodbye",
@@ -24,6 +33,14 @@ jest.mock(
   }),
   { virtual: true }
 )
+
+jest.mock("react-router-dom", () => ({
+  Link: ({ className, to, children }) => (
+    <a className={className} href={to}>
+      {children}
+    </a>
+  ),
+}))
 
 test("renders Book box", async () => {
   const { container, getByText, findByText } = render(<Book className="Box Test" />)
@@ -45,37 +62,41 @@ test("renders Book box", async () => {
   expect(book).toHaveClass("Book", "Box", "Test")
 })
 
-test("activates Book pages navigation buttons", async () => {
-  const { findByText } = render(<Book className="Box Test" />)
+test("render Book pages navigation buttons (start)", async () => {
+  const { findByText } = render(<Book page="0" />)
 
   expect(await findByText(/hello/i)).toBeInTheDocument()
   expect(await findByText(/this is a test/i)).toBeInTheDocument()
 
-  const next = await findByText(">")
-  await act(async () => {
-    next.click()
-  })
-  expect(await findByText(/goodbye/i)).toBeInTheDocument()
-  expect(await findByText(/hope all went well/i)).toBeInTheDocument()
+  const previous = await findByText("<")
+  expect(previous.href).toBe(`${global.window.location.href}0`)
 
-  const nextAgain = await findByText(">")
-  await act(async () => {
-    nextAgain.click()
-  })
+  const next = await findByText(">")
+  expect(next.href).toBe(`${global.window.location.href}1`)
+})
+
+test("render Book pages navigation buttons (middle)", async () => {
+  const { findByText } = render(<Book page="1" />)
+
+  expect(await findByText(/hey/i)).toBeInTheDocument()
+  expect(await findByText(/halfway there/i)).toBeInTheDocument()
+
+  const previous = await findByText("<")
+  expect(previous.href).toBe(`${global.window.location.href}0`)
+
+  const next = await findByText(">")
+  expect(next.href).toBe(`${global.window.location.href}2`)
+})
+
+test("render Book pages navigation buttons (end)", async () => {
+  const { findByText } = render(<Book page="2" />)
+
   expect(await findByText(/goodbye/i)).toBeInTheDocument()
   expect(await findByText(/hope all went well/i)).toBeInTheDocument()
 
   const previous = await findByText("<")
-  await act(async () => {
-    previous.click()
-  })
-  expect(await findByText(/hello/i)).toBeInTheDocument()
-  expect(await findByText(/this is a test/i)).toBeInTheDocument()
+  expect(previous.href).toBe(`${global.window.location.href}1`)
 
-  const previousAgain = await findByText("<")
-  await act(async () => {
-    previousAgain.click()
-  })
-  expect(await findByText(/hello/i)).toBeInTheDocument()
-  expect(await findByText(/this is a test/i)).toBeInTheDocument()
+  const next = await findByText(">")
+  expect(next.href).toBe(`${global.window.location.href}2`)
 })

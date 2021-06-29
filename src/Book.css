@@ -57,29 +57,29 @@
   align-items: center;
 }
 
-.Book .Header .Navigation span {
+.Book .Header .Navigation .Counter {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 12.5px;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 0.6px;
-  margin-top: 3px;
-  padding: 0px 6px;
+  margin-top: 4px;
+  padding: 0px 10px;
   height: 40px;
   width: 30px;
 }
 
-.Book .Header .Navigation button {
+.Book .Header .Navigation .Button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 26px;
+  text-decoration: none;
   color: #eaeaea;
   background-color: #424242;
   border: none;
   cursor: pointer;
-  padding: 1px 6px;
   margin-top: 4px;
   height: 40px;
   width: 30px;
@@ -87,21 +87,21 @@
   transition: color 200ms ease, background-color 200ms ease, box-shadow 50ms ease, -webkit-box-shadow 50ms ease;
 }
 
-.Book .Header .Navigation button:first-child {
+.Book .Header .Navigation .Button:first-child {
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
 }
 
-.Book .Header .Navigation button:last-child {
+.Book .Header .Navigation .Button:last-child {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
-.Book .Header .Navigation button:hover {
+.Book .Header .Navigation .Button:hover {
   opacity: 0.9;
 }
 
-.Book .Header .Navigation button:active {
+.Book .Header .Navigation .Button:active {
   opacity: 1;
   transform: translateY(1px);
   background-color: #212121;

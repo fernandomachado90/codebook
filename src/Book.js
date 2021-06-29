@@ -3,19 +3,24 @@ import "./Book.css"
 import "./BookContent.css"
 import { fetchBookPages, selectRandomTheme } from "./BookAPI"
 
+import { Link } from "react-router-dom"
+
 const theme = selectRandomTheme()
 const book = fetchBookPages()
 const pages = book.length - 1
 
-function Book({ className }) {
+const linkToPrevPage = (page) => {
+  if (page <= 0) return 0
+  return Number(page) - 1
+}
+
+const linkToNextPage = (page) => {
+  if (page >= pages) return page
+  return Number(page) + 1
+}
+
+function Book({ page = 0, className }) {
   const [content, setContent] = useState()
-  const [page, setPage] = useState(0)
-  const handlePrevPage = () => {
-    if (0 < page) setPage(page - 1)
-  }
-  const handleNextPage = () => {
-    if (page < pages) setPage(page + 1)
-  }
 
   useEffect(() => {
     import(`${book[page]}`).then(setContent).catch(console.error)
@@ -27,11 +32,15 @@ function Book({ className }) {
         <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         <div className="Title">{content?.title}</div>
         <div className="Navigation">
-          <button onClick={handlePrevPage}>{"<"}</button>
-          <span>
+          <Link className="Button" to={`/${linkToPrevPage(page)}`}>
+            {"<"}
+          </Link>
+          <span className="Counter">
             {page}/{pages}
           </span>
-          <button onClick={handleNextPage}>{">"}</button>
+          <Link className="Button" to={`/${linkToNextPage(page)}`}>
+            {">"}
+          </Link>
         </div>
       </nav>
       <div className={`Content Theme-${theme}`}>{content?.body}</div>

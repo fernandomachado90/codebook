@@ -1,14 +1,23 @@
 import React from "react"
+import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom"
 import "./App.css"
 import Book from "./Book"
 import Code from "./Code"
 
+function BookWithParams() {
+  const { page } = useParams()
+  return <Book page={page} className="Box Single" />
+}
+
 function App() {
   return (
-    <div className="App">
-      <Book className="Box Single" />
+    <Router>
+      <Switch>
+        <Route exact path="/" children={<BookWithParams />} />
+        <Route path="/:page" children={<BookWithParams />} />
+      </Switch>
       <Code className="Box Double" />
-    </div>
+    </Router>
   )
 }
 
