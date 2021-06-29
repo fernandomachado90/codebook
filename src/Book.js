@@ -9,18 +9,18 @@ const theme = selectRandomTheme()
 const book = fetchBookPages()
 const pages = book.length - 1
 
-const linkToPrevPage = (page) => clamp(page - 1)
-const linkToNextPage = (page) => clamp(page + 1)
 function clamp(page) {
   if (page <= 0) return 0
   if (page >= pages) return pages
-  return Number(page)
+  return page
 }
+const linkToPrevPage = (page) => clamp(page - 1)
+const linkToNextPage = (page) => clamp(page + 1)
 
 function Book({ page = 0, className }) {
-  page = clamp(page)
-  const [content, setContent] = useState()
+  page = Number(clamp(page))
 
+  const [content, setContent] = useState()
   useEffect(() => {
     import(`${book[page]}`).then(setContent).catch(console.error)
   }, [page])
