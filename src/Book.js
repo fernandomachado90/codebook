@@ -28,7 +28,9 @@ function Book({ page = 0, className }) {
   return (
     <div className={`Book ${className}`}>
       <nav className="Header">
-        <img alt="CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
+        <Link to={`/`}>
+          <img alt="CodeBook" title="Home" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
+        </Link>
         <div className="Title">{content?.title}</div>
         <div className="Navigation">
           <Link className="Button" to={`/${linkToPrevPage(page)}`}>
