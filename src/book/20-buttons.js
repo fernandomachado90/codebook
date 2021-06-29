@@ -22,13 +22,15 @@ export const body = (
 
     <form style={{ background: "turquoise" }}>
       <p>
-        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" required />
+        <label htmlFor="nome">Nome:</label> <input type="text" name="nome" id="nome" required /> <i>(obrigatório)</i>
       </p>
       <p>
-        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" required />
+        <label htmlFor="email">Email:</label> <input type="email" name="email" id="email" required />{" "}
+        <i>(obrigatório)</i>
       </p>
       <p>
-        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" required />
+        <label htmlFor="senha">Senha:</label> <input type="password" name="senha" id="senha" required />{" "}
+        <i>(obrigatório)</i>
       </p>
       <p>
         <label htmlFor="busca">Busca:</label> <input type="search" name="busca" id="busca" />
@@ -36,7 +38,7 @@ export const body = (
 
       <p>
         <label htmlFor="quantidade">Quantidade:</label>{" "}
-        <input type="number" name="quantidade" id="quantidade" min="0" max="100" step="5" />
+        <input type="number" name="quantidade" id="quantidade" min="0" max="100" step="5" /> <i>(entre 0 e 100)</i>
       </p>
       <p>
         <label htmlFor="instensidade">Intensidade:</label>{" "}
