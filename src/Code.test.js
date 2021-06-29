@@ -2,13 +2,12 @@ import React from "react"
 import { render } from "@testing-library/react"
 import Code from "./Code"
 
-jest.mock("./code/placeholder", () => ({
-  placeholder: {
-    html: `<body></body>`,
-    css: `body { };`,
-    js: `//one-line comment for testing purposes`,
-  },
-}))
+const placeholder = {
+  html: `<body></body>`,
+  css: `body { };`,
+  js: `//one-line comment for testing purposes`,
+}
+jest.mock("./code/placeholder", () => ({ placeholder }))
 
 test("renders Code box", () => {
   const { container } = render(<Code className="Box Test" />)
@@ -39,12 +38,6 @@ test("renders CodePen with title", () => {
 })
 
 test("renders CodePen with default placeholder prefill for html, css and js", () => {
-  const placeholder = {
-    html: `<body></body>`,
-    css: `body { };`,
-    js: `//one-line comment for testing purposes`,
-  }
-
   const { getByText } = render(<Code />)
 
   const html = getByText(placeholder.html)
