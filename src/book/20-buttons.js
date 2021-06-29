@@ -107,11 +107,7 @@ export const body = (
       <pre>{`<input type="button" value="Oi!" onClick="alert('Olá!')" />
 <input type="reset" value="Limpar" />
 <input type="submit" value="Enviar" />
-<button>
-  <img src="/codebook/favicon-16x16.png" alt="CodeBook" />
-  Enviar
-</button>
-`}</pre>
+<button> <img src="/codebook/favicon-16x16.png" alt="CodeBook"/> Enviar</button>`}</pre>
     </code>
 
     <p>
