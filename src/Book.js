@@ -28,18 +28,18 @@ function Book({ page = 0, className }) {
   return (
     <div className={`Book ${className}`}>
       <nav className="Header">
-        <Link to={`/`}>
+        <Link to={`/`} replace>
           <img alt="CodeBook" title="Home" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         </Link>
         <div className="Title">{content?.title}</div>
         <div className="Navigation">
-          <Link className="Button" to={`/${linkToPrevPage(page)}`}>
+          <Link className="Button" to={`/${linkToPrevPage(page)}`} replace>
             {"<"}
           </Link>
           <span className="Counter">
             {page}/{pages}
           </span>
-          <Link className="Button" to={`/${linkToNextPage(page)}`}>
+          <Link className="Button" to={`/${linkToNextPage(page)}`} replace>
             {">"}
           </Link>
         </div>
