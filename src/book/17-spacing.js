@@ -81,8 +81,8 @@ function renderBoxModel(margin, border, padding) {
         <pre>
           {`.box {
   margin: ${margin};
-  border: ${border} solid ${borderColor};
   padding: ${padding};
+  border: ${border} solid ${borderColor};
 }
 <div class="box">conteúdo</div>`}
         </pre>
