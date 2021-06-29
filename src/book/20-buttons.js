@@ -12,7 +12,7 @@ export const body = (
     <p>
       <b>&lt;input type="_____"&gt;</b>{" "}
       <i>
-        (<b>button</b>: nada | <b>reset</b>: limpa dados | <b>submit</b>: envia formulário)
+        (<b>button</b>: faz nada | <b>reset</b>: limpa dados | <b>submit</b>: envia formulário)
       </i>
       <br />
       <b>&lt;button&gt;</b>...<b>&lt;/button&gt;</b>{" "}
