@@ -36,17 +36,17 @@ export const body = (
 <p class="rodape">© 2021</p>`}</pre>
     </code>
 
-    <p style={{ "text-align": "center", "font-weight": "900" }}>MANCHETE</p>
-    <p style={{ "text-align": "left" }}>
+    <p style={{ textAlign: "center", fontWeight: "900" }}>MANCHETE</p>
+    <p style={{ textAlign: "left" }}>
       item a<br />
       item b<br />
       item c
     </p>
-    <p style={{ "text-align": "justify", "font-style": "italic" }}>
+    <p style={{ textAlign: "justify", fontStyle: "italic" }}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
-    <p style={{ "text-align": "right", "font-size": "12px" }}>© 2021</p>
+    <p style={{ textAlign: "right", fontSize: "12px" }}>© 2021</p>
   </>
 )

@@ -81,10 +81,10 @@ export const body = (
 
     <div
       style={{
-        "border-width": "6px",
-        "border-style": "double",
-        "border-color": "purple",
-        "border-radius": "50%",
+        borderWidth: "6px",
+        borderStyle: "double",
+        borderColor: "purple",
+        borderRadius: "50%",
         height: "75px",
         width: "75px",
       }}

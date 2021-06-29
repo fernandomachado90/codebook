@@ -42,28 +42,30 @@ export const body = (
     </code>
     <br />
     <table>
-      <tr>
-        <th>Horário</th>
-        <th>Atividade</th>
-        <th>Responsável</th>
-      </tr>
-      <tr>
-        <td>14:30 - 15:00</td>
-        <td>Aula sobre tabelas</td>
-        <td>
-          <i>(à confirmar)</i>
-        </td>
-      </tr>
-      <tr>
-        <td>15:30 - 15:45</td>
-        <td>Intervalo</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>15:45 - 16:45</td>
-        <td>Exercícios</td>
-        <td>Paulo Freire</td>
-      </tr>
+      <tbody>
+        <tr>
+          <th>Horário</th>
+          <th>Atividade</th>
+          <th>Responsável</th>
+        </tr>
+        <tr>
+          <td>14:30 - 15:00</td>
+          <td>Aula sobre tabelas</td>
+          <td>
+            <i>(à confirmar)</i>
+          </td>
+        </tr>
+        <tr>
+          <td>15:30 - 15:45</td>
+          <td>Intervalo</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>15:45 - 16:45</td>
+          <td>Exercícios</td>
+          <td>Paulo Freire</td>
+        </tr>
+      </tbody>
     </table>
   </>
 )

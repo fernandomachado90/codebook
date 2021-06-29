@@ -9,7 +9,7 @@ export const body = (
       <b>color:</b> _____; <i>(palavra reservada para cor | código hexadecimal | código RGB)</i>
     </p>
 
-    <p style={{ "text-shadow": "1px 1px 1px black", "text-align": "justify" }}>
+    <p style={{ textShadow: "1px 1px 1px black", textAlign: "justify" }}>
       <span style={{ color: "black" }}>black</span> <span style={{ color: "silver" }}>silver</span>{" "}
       <span style={{ color: "gray" }}>gray</span> <span style={{ color: "white" }}>white</span>{" "}
       <span style={{ color: "maroon" }}>maroon</span> <span style={{ color: "red" }}>red</span>{" "}

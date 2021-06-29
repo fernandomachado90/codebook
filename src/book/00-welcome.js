@@ -16,11 +16,13 @@ export const body = (
     <p>A plataforma é dividida em três janelas:</p>
 
     <table>
-      <tr>
-        <td>📚 material</td>
-        <td>⌨️ código</td>
-        <td>✨ resultado</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>📚 material</td>
+          <td>⌨️ código</td>
+          <td>✨ resultado</td>
+        </tr>
+      </tbody>
     </table>
 
     <p>

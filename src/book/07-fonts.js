@@ -11,11 +11,10 @@ export const body = (
     </p>
 
     <p>
-      <span style={{ "font-family": "Arial" }}>Arial</span> |{" "}
-      <span style={{ "font-family": "Comic Sans MS" }}>"Comic Sans MS"</span>|{" "}
-      <span style={{ "font-family": "Courier" }}>Courier</span> |{" "}
-      <span style={{ "font-family": "Tahoma" }}>Tahoma</span> |{" "}
-      <span style={{ "font-family": "Times New Roman" }}>"Times New Roman"</span>
+      <span style={{ fontFamily: "Arial" }}>Arial</span> |{" "}
+      <span style={{ fontFamily: "Comic Sans MS" }}>"Comic Sans MS"</span>|{" "}
+      <span style={{ fontFamily: "Courier" }}>Courier</span> | <span style={{ fontFamily: "Tahoma" }}>Tahoma</span> |{" "}
+      <span style={{ fontFamily: "Times New Roman" }}>"Times New Roman"</span>
     </p>
 
     <h3>Tamanho</h3>
@@ -24,8 +23,8 @@ export const body = (
     </p>
 
     <p>
-      <span style={{ "font-size": "8px" }}>8px</span> | <span style={{ "font-size": "16px" }}>16px</span> |{" "}
-      <span style={{ "font-size": "24px" }}>24px</span> | <span style={{ "font-size": "32px" }}>32px</span>
+      <span style={{ fontSize: "8px" }}>8px</span> | <span style={{ fontSize: "16px" }}>16px</span> |{" "}
+      <span style={{ fontSize: "24px" }}>24px</span> | <span style={{ fontSize: "32px" }}>32px</span>
     </p>
 
     <h3>Negrito</h3>
@@ -34,9 +33,9 @@ export const body = (
     </p>
 
     <p>
-      <span style={{ "font-weight": "100" }}>100</span> | <span style={{ "font-weight": "300" }}>300</span> |{" "}
-      <span style={{ "font-weight": "500" }}>500</span> | <span style={{ "font-weight": "700" }}>700</span> |{" "}
-      <span style={{ "font-weight": "900" }}>900</span>
+      <span style={{ fontWeight: "100" }}>100</span> | <span style={{ fontWeight: "300" }}>300</span> |{" "}
+      <span style={{ fontWeight: "500" }}>500</span> | <span style={{ fontWeight: "700" }}>700</span> |{" "}
+      <span style={{ fontWeight: "900" }}>900</span>
     </p>
 
     <h3>Itálico</h3>
@@ -45,8 +44,8 @@ export const body = (
     </p>
 
     <p>
-      <span style={{ "font-style": "normal" }}>normal</span> | <span style={{ "font-style": "italic" }}>italic</span> |{" "}
-      <span style={{ "font-style": "oblique" }}>oblique</span>
+      <span style={{ fontStyle: "normal" }}>normal</span> | <span style={{ fontStyle: "italic" }}>italic</span> |{" "}
+      <span style={{ fontStyle: "oblique" }}>oblique</span>
     </p>
 
     <h3>Sublinhado</h3>
@@ -55,9 +54,9 @@ export const body = (
     </p>
 
     <p>
-      <span style={{ "text-decoration": "underline" }}>underline</span> |{" "}
-      <span style={{ "text-decoration": "overline" }}>overline</span> |{" "}
-      <span style={{ "text-decoration": "line-through" }}>line-through</span>
+      <span style={{ textDecoration: "underline" }}>underline</span> |{" "}
+      <span style={{ textDecoration: "overline" }}>overline</span> |{" "}
+      <span style={{ textDecoration: "line-through" }}>line-through</span>
     </p>
 
     <code>
@@ -74,11 +73,11 @@ export const body = (
 
     <p
       style={{
-        "font-family": "Arial Narrow",
-        "font-size": "32px",
-        "font-weight": "700",
-        "font-style": "italic",
-        "text-decoration": "line-through",
+        fontFamily: "Arial Narrow",
+        fontSize: "32px",
+        fontWeight: "700",
+        fontStyle: "italic",
+        textDecoration: "line-through",
       }}
     >
       título perigosamente customizado
