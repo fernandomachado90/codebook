@@ -169,8 +169,8 @@ export const body = (
     <code>
       <pre>{`.monkey {
   position: fixed;
-  bottom: 0px;
-  left: 400px;
+  bottom: 0;
+  left: 20%;
   outline: none; //(o macaco escapou da gaiola)
 }
 
@@ -186,8 +186,8 @@ export const body = (
           ...boxStyle,
           outline: "none",
           position: "fixed",
-          bottom: "0px",
-          left: "400px",
+          bottom: "0",
+          left: "20%",
         }}
       >
         🐒
