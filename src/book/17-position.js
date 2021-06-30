@@ -27,8 +27,8 @@ export const body = (
 
     <h3>Static</h3>
     <p>
-      Até agora, vimos que elementos são posicionado, em blocos (de cima-para-baixo) e em trechos (ocupando as linhas da
-      esquerda-para-direita). Esse método de posicionamento é o <b>static</b> (padrão). Coordenadas não são
+      Até agora, vimos que elementos são posicionados em blocos (de cima-para-baixo) e em trechos (ocupando as linhas da
+      esquerda-para-direita). Esse método de posicionamento é o <b>static</b> (padrão) e, aqui, as coordenadas não são
       consideradas.
     </p>
 
