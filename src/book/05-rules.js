@@ -51,21 +51,17 @@ export const body = (
   <p class="authorized">autorizado</p>
 </body>`}</pre>
     </code>
-
-    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
-    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "gold" }}>premium</p>
-    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
-    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
-    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
-
-    <h3>Comentário</h3>
-    <p>Há duas notações para comentar código e ignorar definições de propriedades:</p>
-
     <p>
-      <b>{"/*"}</b> <i>bloco que delimita múltiplas linhas de comentário</i> <b>{"*/"}</b> <br />
-      ou
-      <br />
-      <b>{"//"}</b> <i>comentário de uma única linha</i>
+      <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
+      <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "gold" }}>premium</p>
+      <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
+      <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
+      <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
+    </p>
+    <h3>Comentário</h3>
+    <p>
+      Em CSS, é possível comentar trechos de código e ignorar definições de propriedades ao embrulhar o conteúdo na
+      notação: <b>{"/*"}</b> <i>comentários</i> <b>{"*/"}</b>.
     </p>
 
     <code>
@@ -76,11 +72,12 @@ export const body = (
     ... tudo que estiver escrito aqui dentro será ignorado
     */
 
-    // color: hotpink; somente essa linha será ignorada
+    /* color: hotpink; somente essa linha será ignorada */
 
     color: deeppink;
   }
 </style>
+
 <body>
   <p>qual será meu tom de rosa?</p>
 </body>`}</pre>

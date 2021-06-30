@@ -63,11 +63,11 @@ export const body = (
 .yellow {
   background: #ffed00;
   display: inline;
-  // width e height são inefetivos em div inline
+  /* width e height são inefetivos em div inline */
 }
 .green {
   background: #008026;
-  // width e height são inefetivos em span inline (padrão)
+  /* width e height são inefetivos em span inline (padrão) */
 }
 .blue {
   background: #004dff;

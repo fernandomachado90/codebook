@@ -171,7 +171,7 @@ export const body = (
   position: fixed;
   bottom: 0;
   left: 20%;
-  outline: none; //(o macaco escapou da gaiola)
+  outline: none; /* o macaco saiu fora da gaiola */
 }
 
 <div class="box">🐈</div>
