@@ -6,7 +6,7 @@ export const body = (
     <h1>VALEU! 💗</h1>
 
     <p>
-      Feliz que chegou até aqui! O que achou do material e da plataforma? Aprendeu algo novo? Tem alguma ideia de como
+      Que bom que chegou até aqui! O que achou do material e da plataforma? Aprendeu algo novo? Tem alguma ideia de como
       podemos melhorar? Escreva seu{" "}
       <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
         feedback
@@ -39,18 +39,23 @@ export const body = (
       <a target="_blank" rel="noreferrer" href="http://aceleradora-inclusiva.herokuapp.com/">
         Aceleradora Inclusiva
       </a>
-      , um projeto de educação popular em tecnologia viabilizado por uma parceria entre ThoughtWorks e PUC-RS.
+      , um projeto de educação popular em tecnologia viabilizado por uma parceria entre ThoughtWorks Brasil e PUC-RS.
     </p>
 
     <p>
-      Desde 2021, o material está disponibilizado no <b>CodeBook</b>, uma plataforma de ensino <i>open-source</i>, onde
-      se tornou aberto a contribuições da comunidade.
+      Em 2021, o material didático foi disponibilizado no <b>CodeBook</b>, uma plataforma de ensino <i>open-source</i>{" "}
+      e, desde então, se tornou aberto a contribuições da comunidade.
     </p>
 
     <p>Essa é uma lista das pessoas que contribuíram até agora:</p>
 
     <ul>
       <li>Fernando Machado</li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
     </ul>
   </>
 )
