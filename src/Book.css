@@ -133,16 +133,16 @@
   padding-left: 6px;
 }
 
-.Book .Footer .Link:hover {
-  opacity: 0.75;
-  -webkit-transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
-  transition: color 300ms ease, background-color 300ms ease, opacity 300ms ease;
-}
-
 .Book .Footer .Link img {
   height: 20px;
   margin-right: -3px;
   margin-left: 6px;
+}
+
+.Book .Link:hover {
+  opacity: 0.75;
+  -webkit-transition: color 200ms ease, background-color 200ms ease, opacity 200ms ease;
+  transition: color 200ms ease, background-color 200ms ease, opacity 200ms ease;
 }
 
 .Theme-Circuit {

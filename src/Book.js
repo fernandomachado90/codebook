@@ -28,7 +28,7 @@ function Book({ page = 0, className }) {
   return (
     <div className={`Book ${className}`}>
       <nav className="Header">
-        <Link to={`/`} replace>
+        <Link className="Link" to={`/`} replace>
           <img alt="CodeBook" title="Home" src={`${process.env.PUBLIC_URL}/android-icon-36x36.png`} />
         </Link>
         <div className="Title">{content?.title}</div>
