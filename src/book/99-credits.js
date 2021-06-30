@@ -10,14 +10,16 @@ export const body = (
       podemos melhorar? Escreva seu{" "}
       <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
         feedback
-      </a>!
+      </a>
+      !
     </p>
 
     <h2>Próximos passos</h2>
 
     <p>
-      Com o que aprendeu até aqui, você já é capaz de criar suas primeiras páginas web.
-      Essa é uma lista de links para seguir estudando HTML, CSS e outras tecnologias:</p>
+      Com o que aprendeu até aqui, você já é capaz de criar suas primeiras páginas web. Essa é uma lista de links para
+      seguir estudando HTML, CSS e outras tecnologias:
+    </p>
 
     <ul>
       <li>
@@ -52,8 +54,6 @@ export const body = (
 
     <ul>
       <li>Fernando Machado</li>
-      <li> </li>
-      <li> </li>
       <li> </li>
       <li> </li>
       <li> </li>

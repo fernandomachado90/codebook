@@ -5,27 +5,25 @@ export const body = (
   <>
     <h1>Recursos</h1>
 
-    <p>
-
-    </p>
+    <p>É possível referênciar recursos disponíveis na internet, como links e imagens.</p>
 
     <h3>Links</h3>
     <p>
-      Para incluir um link para outra página, usamos a tag <b>&lt;a&gt;</b> acompanhada do atributo <b>href=""</b> com o
-      endereço do destino.
+      Para incluir um link para outra página da internet, usamos a tag <b>&lt;a href=""&gt;</b> ... <b>&lt;/a&gt;</b>,
+      onde <b>href</b> é um atributo que espera como valor o endereço de destino.
     </p>
     <p>
-      Atributos também são "palavras reservadas" que acompanham as tags de elementos e são expressas dentro da tag de
-      abertura seguindo o padrão <b>atributo="valor"</b>.
+      Atributos são "palavras reservadas" escritas dentro das tags de abertura de elementos e que seguem o padrão{" "}
+      <b>atributo="valor"</b>
     </p>
     <p>
-      Definimos o endereço da página no atributo <b>href=""</b>. Caso queira abrir a página numa outra
-      janela, adicione o atributo <b>target="_blank"</b>.
+      Caso queira abrir a página numa outra janela, adicione o atributo <b>target="_blank"</b>
     </p>
     <code>
       <pre>{`<p>
-  clique <a href="https://www.google.com/" 
-            target="_blank">aqui</a> para fazer sua busca :)
+  clique 
+  <a href="https://www.google.com" target="_blank">aqui</a>
+  para fazer sua busca :)
 </p>`}</pre>
     </code>
 
@@ -39,9 +37,9 @@ export const body = (
 
     <h3>Imagens</h3>
     <p>
-      Para adicionar imagens, usamos a tag <b>&lt;img/&gt;</b> acompanhada do atributo <b>src</b> com o endereço da
-      imagem. O atributo <b>alt</b> define um texto alternativo para a imagem, tornando o conteúdo acessível por
-      leitores de tela. Já o atributo <b>title</b> define a mensagem que aparece ao colocar o cursor do mouse sobre a
+      Para adicionar imagens, usamos a tag <b>&lt;img/&gt;</b> acompanhada do atributo <b>src=""</b> com o endereço da
+      imagem. O atributo <b>alt=""</b> define um texto alternativo para a imagem, tornando o conteúdo acessível por
+      leitores de tela. Já o atributo <b>title=""</b> define a mensagem que aparece ao colocar o cursor do mouse sobre a
       imagem.
     </p>
 

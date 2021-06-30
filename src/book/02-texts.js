@@ -5,6 +5,8 @@ export const body = (
   <>
     <h1>Textos</h1>
 
+    <p>Além de paragráfos, podemos usar outros elementos para demarcar textos especiais.</p>
+
     <h3>Cabeçalho</h3>
     <p>
       As tags <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b>,
@@ -24,7 +26,7 @@ export const body = (
     <h3>Negrito e Itálico</h3>
     <p>
       Podemos destacar ou dar ênfase a blocos de texto usando <b>negrito</b> (<b>&lt;b&gt;</b> ou <b>&lt;strong&gt;</b>)
-      ou <i>itálico</i> (<b>&lt;i&gt;</b> ou <b>&lt;em&gt;</b>)
+      ou <i>itálico</i> (<b>&lt;i&gt;</b> ou <b>&lt;em&gt;</b>). Combine <i>tags</i> e crie <b>destaques</b>.
     </p>
 
     <code>
@@ -34,7 +36,7 @@ export const body = (
     <h3>Linha</h3>
     <p>
       O elemento <b>&lt;br/&gt;</b> é usado para pular linhas. Note que, diferente dos elementos anteriores, esse
-      elemento fecha em si mesmo porque não faz sentido "incluir" algum conteúdo numa quebra de linha.
+      elemento "fecha em si mesmo" pois não aceita nenhum conteúdo.
     </p>
 
     <code>

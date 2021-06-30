@@ -8,8 +8,8 @@ export const body = (
       Boas-vindas ao <b>CodeBook</b>!
     </p>
     <p>
-      Aqui você pode aprender os fundamentos básicos de <b>HTML</b> e <b>CSS</b>, tecnologias amplamente 
-      utilizadas na construção de páginas <b>web</b> — como esse tutorial :)
+      Aqui você pode aprender os fundamentos básicos de <b>HTML</b> e <b>CSS</b>, tecnologias amplamente utilizadas na
+      construção de páginas <b>web</b> — como esse tutorial :)
     </p>
 
     <h2>Teoria + Prática = Página</h2>
@@ -17,28 +17,26 @@ export const body = (
 
     <table>
       <tbody>
-        <tr >
+        <tr>
           <td style={{ position: "relative" }}>
             📚 material
-            <b style={{ display: "block", position: "absolute", top: "0", right: "3px"  }}>
-              &lt; &gt; 
-            </b>
+            <b style={{ display: "block", position: "absolute", top: "0", right: "3px" }}>&lt; &gt;</b>
           </td>
-          <td style={{ color: "#d5d7de", background: "#131417"  }}>⌨️ código</td>
-          <td style={{ background: "white"  }}>📰 resultado</td>
+          <td style={{ color: "#d5d7de", background: "#131417" }}>⌨️ código</td>
+          <td style={{ background: "white" }}>📰 resultado</td>
         </tr>
       </tbody>
     </table>
 
     <p>
-      Navegando pelas páginas do <b>material</b>, você vai conhecendo os conceitos essenciais da web 
-      enquanto pode ir colocando o que aprendeu em prática na janela de <b>código</b> e acompanha 
-      o progresso da construção de sua página na janela de <b>resultado</b>.
+      Navegando pelas páginas do <b>material</b>, você vai conhecendo os conceitos essenciais da web enquanto pode ir
+      colocando o que aprendeu em prática na janela de <b>código</b> e acompanha o progresso da construção de sua página
+      na janela de <b>resultado</b>.
     </p>
 
     <p>
-      Se quiser salvar seu trabalho, clique no botão EDIT (no canto superior direito) para ter acesso 
-      ao <b>CodePen</b>. Crie sua conta e mantenha uma portfólio de páginas web!
+      Se quiser salvar seu trabalho, clique no botão EDIT (no canto superior direito) para ter acesso ao <b>CodePen</b>.
+      Crie sua conta e mantenha uma portfólio de páginas web!
     </p>
 
     <h2>Colabore</h2>
