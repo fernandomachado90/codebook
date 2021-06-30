@@ -46,6 +46,11 @@ export const body = (
       etc.). Como esse conteúdo é relevante somente para quem desenvolve, usamos comentários para que o navegador
       esconda esse conteúdo.
     </p>
+
+    <p>
+      A notação de comentários é <b>&lt;--</b> <i>conteúdo comentado</i> <b>--&gt;</b>
+    </p>
+
     <code>
       <pre>{`<!-- o que escrevermos aqui não aparece na página -->`}</pre>
     </code>

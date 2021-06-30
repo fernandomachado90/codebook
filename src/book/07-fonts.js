@@ -5,14 +5,16 @@ export const body = (
   <>
     <h1>Fontes</h1>
 
-    <h3>Família</h3>
+    <p>Além de alterar a cor, podemos customizar nossos textos com diversas propriedades.</p>
+
+    <h3>Tipo</h3>
     <p>
-      <b>font-family: </b> "_____"; <i>(nome da fonte, entre aspas se houver espaços. )</i>
+      <b>font-family: </b> _____; <i>(nomes das fontes, em ordem de preferência; entre aspas se há espaço)</i>
     </p>
 
     <p>
       <span style={{ fontFamily: "Arial" }}>Arial</span> |{" "}
-      <span style={{ fontFamily: "Comic Sans MS" }}>"Comic Sans MS"</span>|{" "}
+      <span style={{ fontFamily: "Comic Sans MS" }}>"Comic Sans MS"</span> |{" "}
       <span style={{ fontFamily: "Courier" }}>Courier</span> | <span style={{ fontFamily: "Tahoma" }}>Tahoma</span> |{" "}
       <span style={{ fontFamily: "Times New Roman" }}>"Times New Roman"</span>
     </p>
@@ -60,21 +62,21 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`h1 {
+      <pre>{`.meu-titulo {
   font-family: "Arial Narrow";
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   text-decoration: line-through;
 }
-
-<h1>título perigosamente customizado</h1>`}</pre>
+<p class=".meu-titulo">título perigosamente customizado</p>`}</pre>
     </code>
 
     <p
       style={{
         fontFamily: "Arial Narrow",
-        fontSize: "32px",
+        fontSize: "20px",
+        lineHeight: "10px",
         fontWeight: "700",
         fontStyle: "italic",
         textDecoration: "line-through",

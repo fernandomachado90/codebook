@@ -7,7 +7,7 @@ export const body = (
 
     <h3>Links</h3>
     <p>
-      Para incluir um link para outra página, usamos a tag <b>&lt;a&gt;</b> acompanhada do atributo <b>href</b> com o
+      Para incluir um link para outra página, usamos a tag <b>&lt;a&gt;</b> acompanhada do atributo <b>href=""</b> com o
       endereço do destino.
     </p>
     <p>
@@ -49,7 +49,7 @@ export const body = (
     <img alt="ícone do CodeBook" title="CodeBook" src={`${process.env.PUBLIC_URL}/favicon-96x96.png`} />
 
     <p>
-      Assim como a quebra de linha <b>&lt;br/&gt;</b>, o elemento <b>&lt;img/&gt;</b> não suporta conteúdo.
+      Assim como a quebra de linha <b>&lt;br/&gt;</b>, o elemento <b>&lt;img/&gt;</b> não aceita conteúdo.
     </p>
   </>
 )

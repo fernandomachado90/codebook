@@ -6,6 +6,10 @@ export const body = (
     <h1>Cores</h1>
 
     <p>
+      Alterando o valor da propriedade <b>color</b>, podemos customizar a cor de nossos textos.
+    </p>
+
+    <p>
       <b>color:</b> _____; <i>(palavra reservada para cor | código hexadecimal | código RGB)</i>
     </p>
 
@@ -113,12 +117,10 @@ export const body = (
 .spyro-purple {
   color: rgb(156,53,186);
 }
-
-<p class="crash-orange">Crash Orange</p>
-<p class="spyro-purple">Spyro Purple</p>`}</pre>
+<p class="crash-orange">crash orange</p>
+<p class="spyro-purple">spyro purple</p>`}</pre>
     </code>
-
-    <p style={{ color: "#ff6522" }}>Crash Orange</p>
-    <p style={{ color: "rgb(156,53,186)" }}>Spyro Purple</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "10px", color: "#ff6522" }}>crash orange</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "10px", color: "rgb(156,53,186)" }}>spyro purple</p>
   </>
 )

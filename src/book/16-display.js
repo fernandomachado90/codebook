@@ -31,20 +31,20 @@ export const body = (
 
     <div style={{ textShadow: "1px 1px 1px black", color: "white", outline: "3px dashed black" }}>
       <div style={{ background: "#e40303", height: "20px" }}>
-        uma div padrão (altura customizada para 20px, ocupa uma linha inteira){" "}
+        div block "padrão" (20 x <b>100%</b>, ocupa uma linha inteira){" "}
       </div>
-      <div style={{ background: "#ff8c00", display: "inline-block", height: "100px", width: "100px" }}>
-        uma div inline-block (100x100, compartilha a linha){" "}
+      <div style={{ background: "#ff8c00", display: "inline-block", height: "80px", width: "130px" }}>
+        div inline-block (80 x 130, compartilha linha){" "}
       </div>
-      <div style={{ background: "#ffed00", display: "inline" }}>uma div inline (largura do conteúdo) </div>
-      <span style={{ background: "#008026" }}>
-        um span padrão (também tem a largura do conteúdo e continua na próxima linha){" "}
-      </span>
-      <span style={{ background: "#004dff", display: "inline-block", height: "120px", width: "90px" }}>
-        um span inline-block (120x90, compartilha a linha)
+      <div style={{ background: "#ffed00", display: "inline" }}>
+        div inline (dimensões do conteúdo, compartilha linha){" "}
+      </div>
+      <span style={{ background: "#008026" }}>span inline "padrão" (dimensões do conteúdo, compartilha linha) </span>
+      <span style={{ background: "#004dff", display: "inline-block", width: "130px" }}>
+        span inline-block (<b>conteúdo</b> x 130, compartilha linha)
       </span>
       <span style={{ background: "#750787", display: "block", height: "100px", width: "100px" }}>
-        uma span block (100x100, mas sempre ocupa uma linha inteira)
+        span block (100 x 100, mesmo assim ocupa uma linha inteira)
       </span>
     </div>
 
@@ -57,32 +57,36 @@ export const body = (
 .orange {
   background: #ff8c00;
   display: inline-block;
-  height: 100px; width: 100px;
+  height: 80px;
+  width: 130px;
 }
 .yellow {
   background: #ffed00;
   display: inline;
+  // width e height são inefetivos em div inline
 }
 .green {
   background: #008026;
+  // width e height são inefetivos em span inline (padrão)
 }
 .blue {
   background: #004dff;
   display: inline-block;
-  height: 120px; width: 90px;
+  width: 130px;
 }
 .purple {
   background: #750787;
   display: block;
-  height: 100px; width: 100px;
+  height: 100px;
+  width: 100px;
 }
 <div style="outline: 3px dashed black; color: white;">
-  <div class="red">uma div padrão</div>
-  <div class="orange">uma div inline-block</div>
-  <div class="yellow">uma div inline</div>
-  <span class="green">um span padrão</span>
-  <span class="blue">um span inline-block</span>
-  <span class="purple">um span block</span>
+  <div class="red">div block "padrão"</div>
+  <div class="orange">div inline-block</div>
+  <div class="yellow">div inline</div>
+  <span class="green">span inline "padrão"</span>
+  <span class="blue">span inline-block</span>
+  <span class="purple">span block</span>
 </div>`}
       </pre>
     </code>

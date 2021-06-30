@@ -32,13 +32,21 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`<p style="color: blue;">esse parágrafo é azul</p>
-<p>já esse não é</p>
-<p>esse também não</p>`}</pre>
+      <pre>{`<body>
+  <p style="color: red;">esse parágrafo é vermelho</p>
+  <p>já esse não é</p>
+  <p>esse também não</p>
+  <p style="color: blue;">esse parágrafo é azul</p>
+  <p>mais um parágrafo padrão</p>
+  <p style="color: red;">e mais um parágrafo vermelho</p>
+</body>`}</pre>
     </code>
 
-    <p style={{ color: "blue" }}>esse parágrafo é azul</p>
-    <p>já esse não é</p>
-    <p>esse também não</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>esse parágrafo é vermelho</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px" }}>já esse não é</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px" }}>esse também não</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "blue" }}>esse parágrafo é azul</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px" }}>mais um parágrafo padrão</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>e mais um parágrafo vermelho</p>
   </>
 )

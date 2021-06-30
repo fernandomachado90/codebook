@@ -6,8 +6,8 @@ export const body = (
     <h1>Regras</h1>
 
     <p>
-      Criando um elemento<b>&lt;style&gt;</b> ou usando um arquivo dedicado (aba CSS no editor), podemos definir regras
-      de estilos válidas para todos os elementos de nossa página.
+      Criando um elemento<b>&lt;style&gt;</b> ou com um arquivo dedicado (aba <b>CSS</b> no editor ⌨️), podemos definir
+      regras de estilos válidas para todos os elementos de nossa página.
     </p>
 
     <h3>Seletores</h3>
@@ -44,18 +44,48 @@ export const body = (
   }
 </style>
 <body>
-<p>pendente</p>
-<p id="premium">premium</p>
-<p class="authorized">autorizado</p>
-<p>pendente</p>
-<p class="authorized">autorizado</p>
+  <p>pendente</p>
+  <p id="premium">premium</p>
+  <p class="authorized">autorizado</p>
+  <p>pendente</p>
+  <p class="authorized">autorizado</p>
 </body>`}</pre>
     </code>
 
-    <p style={{ color: "red" }}>pendente</p>
-    <p style={{ color: "gold" }}>premium</p>
-    <p style={{ color: "green" }}>autorizado</p>
-    <p style={{ color: "red" }}>pendente</p>
-    <p style={{ color: "green" }}>autorizado</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "gold" }}>premium</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "red" }}>pendente</p>
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "green" }}>autorizado</p>
+
+    <h3>Comentário</h3>
+    <p>Há duas notações para comentar código e ignorar definições de propriedades:</p>
+
+    <p>
+      <b>{"/*"}</b> <i>bloco que delimita múltiplas linhas de comentário</i> <b>{"*/"}</b> <br />
+      ou
+      <br />
+      <b>{"//"}</b> <i>comentário de uma única linha</i>
+    </p>
+
+    <code>
+      <pre>{`<style>
+  p {
+    /*
+    color: pink; 
+    ... tudo que estiver escrito aqui dentro será ignorado
+    */
+
+    // color: hotpink; somente essa linha será ignorada
+
+    color: deeppink;
+  }
+</style>
+<body>
+  <p>qual será meu tom de rosa?</p>
+</body>`}</pre>
+    </code>
+
+    <p style={{ textShadow: "1px 1px 1px black", lineHeight: "12px", color: "deeppink" }}>qual será meu tom de rosa?</p>
   </>
 )

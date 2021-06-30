@@ -39,18 +39,23 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`<form>
-  <label for="nome">Nome:</label>
-  <input type="text" name="nome" id="nome" required />
-
-  <label for="email">Email:</label>
-  <input type="email" name="email" id="email" required />
-
-  <label for="senha">Senha:</label>
-  <input type="password" name="senha" id="senha" required />
-
-  <label for="busca">Busca:</label>
-  <input type="search" name="busca" id="busca" />
+      <pre>{`<form style="background: turquoise;">
+  <p>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required />
+  </p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required />
+  </p>
+  <p>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" required/>
+  </p>
+  <p>
+    <label for="busca">Busca:</label>
+    <input type="search" name="busca" id="busca" />
+  </p>
 </form>`}</pre>
     </code>
     <form style={{ background: "turquoise" }}>
@@ -106,26 +111,26 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`Gênero:<br/>
+      <pre>{`Gênero: <br/>
 <input type="radio" name="genero" id="genero-f" value="f"/>
-<label for="genero-f">feminino</label>
-<br/>
-<input type="radio" name="genero" id="genero-m" value="m"/>
-<label for="genero-m">masculino</label>
-<br/>
-<input type="radio" name="genero" id="genero-nb" value="nb"/>
-<label for="genero-nb">não-binário</label>
+<label for="genero-f">feminino</label> <br/>
 
-Transporte:<br/>
+<input type="radio" name="genero" id="genero-m" value="m"/>
+<label for="genero-m">masculino</label> <br/>
+
+<input type="radio" name="genero" id="genero-nb" value="nb"/>
+<label for="genero-nb">não-binário</label> <br/>
+
+Transporte: <br/>
 <input type="checkbox" name="veiculo" id="vb" value="b" />
-<label for="vb">bicicleta</label>
-<br/>
+<label for="vb">bicicleta</label> <br/>
+
 <input type="checkbox" name="veiculo" id="vc" value="c" />
-<label for="vc">carro</label>
-<br/>
+<label for="vc">carro</label> <br/>
+
 <input type="checkbox" name="veiculo" id="vo" value="o" />
-<label for="vo">ônibus</label>
-<br/>
+<label for="vo">ônibus</label> <br/>
+
 <input type="checkbox" name="veiculo" id="vt" value="t" />
 <label for="vt">táxi</label>`}</pre>
     </code>
@@ -192,16 +197,17 @@ Transporte:<br/>
 
     <code>
       <pre>{`<label for="cor">Cor:</label>
-<input type="color" name="cor" id="cor" />
+<input type="color" name="cor" id="cor" /> <br/>
 
 <label for="horario">Horário:</label>
-<input type="time" name="horario" id="horario" />
+<input type="time" name="horario" id="horario" /> <br/>
 
 <label for="nascimento">Nascimento:</label>
-<input type="date" name="nascimento" id="nascimento" min="1900-01-01" max="2999-12-31" />
+<input type="date" name="nascimento" id="nascimento" 
+                   min="1900-01-01" max="2999-12-31" /> <br/>
 
 <label for="agenda">Agendamento:</label>
-<input type="datetime-local" name="agenda" id="agenda" />
+<input type="datetime-local" name="agenda" id="agenda"/><br/>
 
 <label for="anexo">Anexo:</label>
 <input type="file" name="anexo" id="anexo" />`}</pre>
