@@ -17,9 +17,10 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`th, td {
-  //necessário para bordas (mais sobre border à seguir)
-  border: 1px solid black; 
+      <pre>{`/* necessário para as bordas (mais sobre border à seguir) */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 <table>
