@@ -35,8 +35,8 @@ export const body = (
 
     <h3>Linha</h3>
     <p>
-      O elemento <b>&lt;br/&gt;</b> é usado para pular linhas. Assim como o separador, esse elemento
-      é "autosuficiente" já que não faz sentido uma quebra de linha possuir conteúdo.
+      O elemento <b>&lt;br/&gt;</b> é usado para pular linhas. Assim como o separador, esse elemento é "autosuficiente"
+      já que não faz sentido uma quebra de linha possuir conteúdo.
     </p>
 
     <code>

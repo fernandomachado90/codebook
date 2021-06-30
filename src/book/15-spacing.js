@@ -64,10 +64,14 @@ export const body = (
       ilustrações de <b>box model</b> abaixo podem ajudar.
     </p>
 
-    {renderBoxModel("30px", "20px", "70px")}<hr/>
-    {renderBoxModel("90px", "30px", "0px")}<hr/>
-    {renderBoxModel("0px", "40px", "40px")}<hr/>
-    {renderBoxModel("0px", "50px", "0px")}<hr/>
+    {renderBoxModel("30px", "20px", "70px")}
+    <hr />
+    {renderBoxModel("90px", "30px", "0px")}
+    <hr />
+    {renderBoxModel("0px", "40px", "40px")}
+    <hr />
+    {renderBoxModel("0px", "50px", "0px")}
+    <hr />
     {renderBoxModel("40px", "0px", "60px")}
   </>
 )
