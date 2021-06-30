@@ -5,6 +5,10 @@ export const body = (
   <>
     <h1>Recursos</h1>
 
+    <p>
+
+    </p>
+
     <h3>Links</h3>
     <p>
       Para incluir um link para outra página, usamos a tag <b>&lt;a&gt;</b> acompanhada do atributo <b>href=""</b> com o
@@ -15,7 +19,7 @@ export const body = (
       abertura seguindo o padrão <b>atributo="valor"</b>.
     </p>
     <p>
-      Definimos o endereço da página no atributo <b>href="http://www..."</b>. Caso queira abrir a página numa outra
+      Definimos o endereço da página no atributo <b>href=""</b>. Caso queira abrir a página numa outra
       janela, adicione o atributo <b>target="_blank"</b>.
     </p>
     <code>

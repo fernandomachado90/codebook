@@ -1,6 +1,6 @@
 import React from "react"
 
-export const title = "html"
+export const title = "HTML"
 export const body = (
   <>
     <h1>Textos</h1>
