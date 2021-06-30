@@ -48,13 +48,13 @@ export const body = (
 
     <h3>Comentário</h3>
     <p>
-      As vezes, queremos anotar algum conteúdo no arquivo HTML para lembrar de alguma coisa (explicações, referências,
-      etc.). Como esse conteúdo é relevante somente para quem desenvolve, usamos comentários para que o navegador
-      esconda esse conteúdo. A notação de comentários é <b>&lt;--</b> <i>conteúdo comentado</i> <b>--&gt;</b>
+      Quando queremos ocultar algum trecho de código, por ser algo que relevante apenas pra quem desenvolve, usamos
+      comentários para não renderizar os elementos demarcados. A notação para comentários em HTML é <b>&lt;!--</b>{" "}
+      <i>conteúdo comentado</i> <b>--&gt;</b>
     </p>
 
     <code>
-      <pre>{`<!-- o que escrevermos aqui não aparece na página -->`}</pre>
+      <pre>{`<!-- <p>o que estiver aqui não aparece na página</p> -->`}</pre>
     </code>
   </>
 )

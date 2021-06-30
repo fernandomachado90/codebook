@@ -10,6 +10,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+.Content hr,
 .Content form {
   display: block;
   margin: 12px auto;

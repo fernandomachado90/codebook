@@ -60,8 +60,8 @@ export const body = (
     </p>
     <h3>Comentário</h3>
     <p>
-      Em CSS, é possível comentar trechos de código e ignorar definições de propriedades ao embrulhar o conteúdo na
-      notação: <b>{"/*"}</b> <i>comentários</i> <b>{"*/"}</b>.
+      Em CSS, é possível comentar trechos de código e ignorar definições de propriedades embrulhando o conteúdo
+      desconsiderado na notação <b>{"/*"}</b> <i>conteúdo comentado</i> <b>{"*/"}</b>.
     </p>
 
     <code>
