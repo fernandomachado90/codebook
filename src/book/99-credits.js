@@ -3,20 +3,21 @@ import React from "react"
 export const title = "Créditos"
 export const body = (
   <>
-    <h1>VALEU! 💗</h1>
+    <h1>VALEU! 🌞</h1>
 
     <p>
       Que bom que chegou até aqui! O que achou do material e da plataforma? Aprendeu algo novo? Tem alguma ideia de como
       podemos melhorar? Escreva seu{" "}
       <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
         feedback
-      </a>
-      !
+      </a>!
     </p>
 
     <h2>Próximos passos</h2>
 
-    <p>Essa é uma lista de links para seguir estudando HTML, CSS e tecnologias para web.</p>
+    <p>
+      Com o que aprendeu até aqui, você já é capaz de criar suas primeiras páginas web.
+      Essa é uma lista de links para seguir estudando HTML, CSS e outras tecnologias:</p>
 
     <ul>
       <li>

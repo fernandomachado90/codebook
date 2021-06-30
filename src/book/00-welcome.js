@@ -5,50 +5,55 @@ export const body = (
   <>
     <h1>Olá!</h1>
     <p>
-      Boas-vindas ao <b>CodeBook</b>, uma introdução a <b>HTML</b> e <b>CSS</b>!
+      Boas-vindas ao <b>CodeBook</b>!
     </p>
     <p>
-      Aqui você pode conhecer os princípios básicos das linguagens amplamente utilizadas para a construção das páginas
-      que você encontra na <b>internet</b> (como esse tutorial!)
+      Aqui você pode aprender os fundamentos básicos de <b>HTML</b> e <b>CSS</b>, tecnologias amplamente 
+      utilizadas na construção de páginas <b>web</b> — como esse tutorial :)
     </p>
 
-    <h2>Teoria | Prática | Página</h2>
+    <h2>Teoria + Prática = Página</h2>
     <p>A plataforma é dividida em três janelas:</p>
 
     <table>
       <tbody>
-        <tr>
-          <td>📚 material</td>
-          <td>⌨️ código</td>
-          <td>✨ resultado</td>
+        <tr >
+          <td style={{ position: "relative" }}>
+            📚 material
+            <b style={{ display: "block", position: "absolute", top: "0", right: "3px"  }}>
+              &lt; &gt; 
+            </b>
+          </td>
+          <td style={{ color: "#d5d7de", background: "#131417"  }}>⌨️ código</td>
+          <td style={{ background: "white"  }}>📰 resultado</td>
         </tr>
       </tbody>
     </table>
 
     <p>
-      Navegando nas páginas do <b>material</b>, você encontra explicações de conceitos fundamentais da web, acompanhados
-      de propostas de atividades, que podem ser exercitadas na janela de <b>código</b> enquanto você acompanha o
-      progresso de sua página, ao vivo, na janela de <b>resultado</b>.
+      Navegando pelas páginas do <b>material</b>, você vai conhecendo os conceitos essenciais da web 
+      enquanto pode ir colocando o que aprendeu em prática na janela de <b>código</b> e acompanha 
+      o progresso da construção de sua página na janela de <b>resultado</b>.
     </p>
 
     <p>
-      Você pode navegar livremente pelas páginas sem perder seu trabalho, então não pense duas vezes antes de revisar
-      conteúdos e experimentar enquanto aprende!
+      Se quiser salvar seu trabalho, clique no botão EDIT (no canto superior direito) para ter acesso 
+      ao <b>CodePen</b>. Crie sua conta e mantenha uma portfólio de páginas web!
     </p>
 
     <h2>Colabore</h2>
     <p>Caso tenha interesse, você pode fazer parte desse projeto em diferentes frentes:</p>
 
     <ul>
-      <li>revisando o material de ensino</li>
-      <li>adicionando novas páginas ao material (Javascript, alguém?)</li>
-      <li>melhorando a usabilidade da plataforma</li>
-      <li>refatorando o código-fonte da app</li>
-      <li>recomendando o CodeBook pra alguém</li>
+      <li>revisando o material de ensino;</li>
+      <li>adicionando novas páginas ao guia;</li>
+      <li>melhorando a usabilidade da plataforma;</li>
+      <li>refatorando o código-fonte da app;</li>
+      <li>recomendando o CodeBook pra alguém;</li>
       <li>
         contribuindo com{" "}
         <a rel="noreferrer" href={process.env.REACT_APP_FEEDBACK_URL} target="_blank">
-          sugestões e feedbacks
+          ideias ou feedbacks
         </a>
         !
       </li>

@@ -10,9 +10,9 @@ export const body = (
     </p>
 
     <p>
-      <b>&lt;input type="_____"&gt;</b>{" "}
+      <b>&lt;input type=" "/&gt;</b>{" "}
       <i>
-        (<b>button</b>: faz nada | <b>reset</b>: limpa dados | <b>submit</b>: envia formulário)
+        (<b>button</b>: não faz nada | <b>reset</b>: limpa dados | <b>submit</b>: envia formulário)
       </i>
       <br />
       <b>&lt;button&gt;</b>...<b>&lt;/button&gt;</b>{" "}
@@ -106,15 +106,17 @@ export const body = (
     </form>
 
     <code>
-      <pre>{`<input type="button" value="Oi!" onClick="alert('Olá!')" />
-<input type="reset" value="Limpar" />
-<input type="submit" value="Enviar" />
-<button> <img src="/codebook/favicon-16x16.png" alt="CodeBook"/> Enviar</button>`}</pre>
+      <pre>{`...
+  <input type="button" value="Oi!" onClick="alert('Olá!')" />
+  <input type="reset" value="Limpar" />
+  <input type="submit" value="Enviar" />
+  <button><img src="/img.png" alt="CodeBook"/>Enviar</button>
+</form>`}</pre>
     </code>
 
     <p>
-      Por padrão, o botão simples <b>type="button"</b> não possui comportamento. Ao clicar no botão <b>Oi!</b>, a função
-      Javascript <b>alert("Olá!")</b> é chamada para exibir uma mensagem.
+      Por padrão, o botão simples <b>type="button"</b> não possui comportamento. Ao clicar no botão <b>Oi!</b>, o código
+      Javascript <b>alert("Olá!")</b> é executado para exibir uma mensagem.
     </p>
     <p>
       O botão <b>type="reset"</b> limpa todos os dados do form onde está incluído.

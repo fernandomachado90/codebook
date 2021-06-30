@@ -11,12 +11,12 @@ export const body = (
     </p>
 
     <p>
-      <b>&lt;input type="_____"&gt;</b>{" "}
+      <b>&lt;input type=" " /&gt;</b>{" "}
       <i>
         (campo de entrada, atributos variam de acordo com o <b>type=""</b>)
       </i>
       <br />
-      <b>&lt;label for="_____"&gt;</b>{" "}
+      <b>&lt;label for=" " /&gt;</b>{" "}
       <i>
         (rótulo que se conecta ao campo input com <b>id</b> indicado em <b>for=""</b>)
       </i>
@@ -132,7 +132,7 @@ Transporte: <br/>
 <label for="vo">ônibus</label> <br/>
 
 <input type="checkbox" name="veiculo" id="vt" value="t" />
-<label for="vt">táxi</label>`}</pre>
+<label for="vt">táxi</label> <br/>`}</pre>
     </code>
     <form style={{ background: "turquoise" }}>
       <p>
@@ -197,17 +197,17 @@ Transporte: <br/>
 
     <code>
       <pre>{`<label for="cor">Cor:</label>
-<input type="color" name="cor" id="cor" /> <br/>
+<input type="color" name="cor" id="cor" />
 
 <label for="horario">Horário:</label>
-<input type="time" name="horario" id="horario" /> <br/>
+<input type="time" name="horario" id="horario" />
 
 <label for="nascimento">Nascimento:</label>
 <input type="date" name="nascimento" id="nascimento" 
-                   min="1900-01-01" max="2999-12-31" /> <br/>
+                   min="1900-01-01" max="2999-12-31" />
 
 <label for="agenda">Agendamento:</label>
-<input type="datetime-local" name="agenda" id="agenda"/><br/>
+<input type="datetime-local" name="agenda" id="agenda"/>
 
 <label for="anexo">Anexo:</label>
 <input type="file" name="anexo" id="anexo" />`}</pre>
