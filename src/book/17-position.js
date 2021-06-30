@@ -2,7 +2,7 @@ import React from "react"
 
 const boxStyle = {
   display: "inline-block",
-  outline: "5px solid black",
+  outline: "5px dashed black",
   fontSize: "50px",
   lineHeight: "65px",
   margin: "10px",
