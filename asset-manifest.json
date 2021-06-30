@@ -14,15 +14,15 @@
     "static/js/5.3d92da34.chunk.js.map": "/codebook/static/js/5.3d92da34.chunk.js.map",
     "static/js/6.9713bc59.chunk.js": "/codebook/static/js/6.9713bc59.chunk.js",
     "static/js/6.9713bc59.chunk.js.map": "/codebook/static/js/6.9713bc59.chunk.js.map",
-    "main.css": "/codebook/static/css/main.e6b93f01.chunk.css",
-    "main.js": "/codebook/static/js/main.8d974089.chunk.js",
-    "main.js.map": "/codebook/static/js/main.8d974089.chunk.js.map",
+    "main.css": "/codebook/static/css/main.299ac52b.chunk.css",
+    "main.js": "/codebook/static/js/main.54a44769.chunk.js",
+    "main.js.map": "/codebook/static/js/main.54a44769.chunk.js.map",
     "runtime-main.js": "/codebook/static/js/runtime-main.ff5f2c95.js",
     "runtime-main.js.map": "/codebook/static/js/runtime-main.ff5f2c95.js.map",
     "static/js/9.66bd87f4.chunk.js": "/codebook/static/js/9.66bd87f4.chunk.js",
     "static/js/9.66bd87f4.chunk.js.map": "/codebook/static/js/9.66bd87f4.chunk.js.map",
     "index.html": "/codebook/index.html",
-    "static/css/main.e6b93f01.chunk.css.map": "/codebook/static/css/main.e6b93f01.chunk.css.map",
+    "static/css/main.299ac52b.chunk.css.map": "/codebook/static/css/main.299ac52b.chunk.css.map",
     "static/js/1.e02598f6.chunk.js.LICENSE.txt": "/codebook/static/js/1.e02598f6.chunk.js.LICENSE.txt",
     "static/js/2.7d0b88aa.chunk.js.LICENSE.txt": "/codebook/static/js/2.7d0b88aa.chunk.js.LICENSE.txt",
     "static/js/9.66bd87f4.chunk.js.LICENSE.txt": "/codebook/static/js/9.66bd87f4.chunk.js.LICENSE.txt"
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff5f2c95.js",
     "static/js/9.66bd87f4.chunk.js",
-    "static/css/main.e6b93f01.chunk.css",
-    "static/js/main.8d974089.chunk.js"
+    "static/css/main.299ac52b.chunk.css",
+    "static/js/main.54a44769.chunk.js"
   ]
 }
