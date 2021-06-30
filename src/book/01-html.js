@@ -26,9 +26,7 @@ export const body = (
 
     <code>
       <pre>{`<body>
-
-    (conteúdo) 
-
+    conteúdo
 </body>`}</pre>
     </code>
 
@@ -40,14 +38,19 @@ export const body = (
       <pre>{`<p>Os blocos de texto que você lê nesse guia...</p>`}</pre>
     </code>
 
+    <h3>Separador</h3>
+    <p>
+      O elemento <b>&lt;hr/&gt;</b> renderiza um separador na página. Note que, diferente do parágrafo,
+      esse elemento "fecha em si mesmo", pois não aceita nenhum conteúdo.
+    </p>
+
+    <hr/>
+
     <h3>Comentário</h3>
     <p>
       As vezes, queremos anotar algum conteúdo no arquivo HTML para lembrar de alguma coisa (explicações, referências,
       etc.). Como esse conteúdo é relevante somente para quem desenvolve, usamos comentários para que o navegador
       esconda esse conteúdo.
-    </p>
-
-    <p>
       A notação de comentários é <b>&lt;--</b> <i>conteúdo comentado</i> <b>--&gt;</b>
     </p>
 
