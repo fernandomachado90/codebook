@@ -17,7 +17,12 @@ export const body = (
     </p>
 
     <code>
-      <pre>{`<table>
+      <pre>{`th, td {
+  //necessário para bordas (mais sobre border à seguir)
+  border: 1px solid black; 
+}
+
+<table>
   <tr>
     <th>Horário</th>
     <th>Atividade</th>
@@ -40,7 +45,6 @@ export const body = (
   </tr>
 </table>`}</pre>
     </code>
-    <br />
     <table>
       <tbody>
         <tr>

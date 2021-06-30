@@ -18,12 +18,24 @@ export const body = (
     <table>
       <tbody>
         <tr>
-          <td style={{ position: "relative" }}>
+          <td style={{ width: "100px", padding: "50px 10px", textAlign: "center", position: "relative" }}>
             📚 material
             <b style={{ display: "block", position: "absolute", top: "0", right: "3px" }}>&lt; &gt;</b>
           </td>
-          <td style={{ color: "#d5d7de", background: "#131417" }}>⌨️ código</td>
-          <td style={{ background: "white" }}>📰 resultado</td>
+          <td
+            style={{
+              width: "100px",
+              padding: "50px 10px",
+              textAlign: "center",
+              color: "#d5d7de",
+              background: "#131417",
+            }}
+          >
+            ⌨️ código
+          </td>
+          <td style={{ width: "100px", padding: "50px 10px", textAlign: "center", background: "white" }}>
+            📰 resultado
+          </td>
         </tr>
       </tbody>
     </table>
