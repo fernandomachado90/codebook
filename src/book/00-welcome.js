@@ -8,8 +8,9 @@ export const body = (
       Boas-vindas ao <b>CodeBook</b>!
     </p>
     <p>
-      Aqui você pode aprender os fundamentos básicos de <b>HTML</b> e <b>CSS</b>, tecnologias amplamente utilizadas na
-      construção de páginas <b>web</b> — como esse tutorial :)
+      Aqui você pode aprender os fundamentos básicos de <b>HTML</b> e <b>CSS</b>, tecnologias utilizadas para construir
+      praticamente todas as coisas que você encontra na <b>internet</b> (como esse tutorial) e também criar as suas
+      primeiras <b>páginas web</b>.
     </p>
 
     <h2>Teoria + Prática = Página</h2>
@@ -54,7 +55,7 @@ export const body = (
     <h2>Atualizações</h2>
     <ul>
       <li>
-        <b>jul/2021:</b> lançamento da primeira versão do guia <i>(20 páginas)</i>
+        <b>jun/2021:</b> primeira versão do guia <i>(20 páginas)</i>
       </li>
     </ul>
 

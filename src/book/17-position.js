@@ -177,8 +177,8 @@ export const body = (
     <h3>Fixed</h3>
     <p>
       O posicionamento <b>fixed</b> permite ajustar a posição de um elemento com relação as dimensões da própria tela. É
-      o mesmo comportamento de <b>absolute</b> quando não há "referencial") e os elementos vizinhos tem suas posições
-      reajustadas pela mudança.
+      o mesmo comportamento de <b>absolute</b> quando não há "referencial" e os elementos vizinhos também tem suas
+      posições reajustadas.
     </p>
 
     <code>
