@@ -3,7 +3,7 @@ import React from "react"
 export const title = "Créditos"
 export const body = (
   <>
-    <h1>VALEU! 🌞</h1>
+    <h1>VALEU!</h1>
 
     <p>
       Que bom que chegou até aqui! O que achou do material e da plataforma? Aprendeu algo novo? Tem alguma ideia de como
