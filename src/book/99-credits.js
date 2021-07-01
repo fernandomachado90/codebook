@@ -30,6 +30,11 @@ export const body = (
       </li>
     </ul>
 
+    <p>
+      Para continuar seu trabalho, clique no botão EDIT (canto superior direito) para acessar o <b>CodePen</b>. Crie sua
+      conta e mantenha seu portfólio de páginas web!
+    </p>
+
     <h2>Créditos</h2>
 
     <p>

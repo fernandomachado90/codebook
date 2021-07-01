@@ -18,14 +18,14 @@ export const body = (
     <table>
       <tbody>
         <tr>
-          <td style={{ width: "100px", padding: "50px 10px", textAlign: "center", position: "relative" }}>
+          <td style={{ width: "100px", padding: "30px 10px", textAlign: "center", position: "relative" }}>
             📚 material
             <b style={{ display: "block", position: "absolute", top: "0", right: "3px" }}>&lt; &gt;</b>
           </td>
           <td
             style={{
               width: "100px",
-              padding: "50px 10px",
+              padding: "30px 10px",
               textAlign: "center",
               color: "#d5d7de",
               background: "#131417",
@@ -33,7 +33,7 @@ export const body = (
           >
             ⌨️ código
           </td>
-          <td style={{ width: "100px", padding: "50px 10px", textAlign: "center", background: "white" }}>
+          <td style={{ width: "100px", padding: "30px 10px", textAlign: "center", background: "white" }}>
             📰 resultado
           </td>
         </tr>
@@ -47,9 +47,16 @@ export const body = (
     </p>
 
     <p>
-      Se quiser salvar seu trabalho, clique no botão EDIT (no canto superior direito) para ter acesso ao <b>CodePen</b>.
-      Crie sua conta e mantenha uma portfólio de páginas web!
+      Se quiser salvar seu trabalho, clique no botão EDIT (canto superior direito) para acessar o <b>CodePen</b>. Crie
+      sua conta e mantenha um portfólio de páginas web!
     </p>
+
+    <h2>Atualizações</h2>
+    <ul>
+      <li>
+        <b>jun/2021:</b> lançamento da primeira versão do guia <i>(20 páginas)</i>
+      </li>
+    </ul>
 
     <h2>Colabore</h2>
     <p>Caso tenha interesse, você pode fazer parte desse projeto em diferentes frentes:</p>
@@ -58,7 +65,6 @@ export const body = (
       <li>revisando o material de ensino;</li>
       <li>adicionando novas páginas ao guia;</li>
       <li>melhorando a usabilidade da plataforma;</li>
-      <li>refatorando o código-fonte da app;</li>
       <li>recomendando o CodeBook pra alguém;</li>
       <li>
         contribuindo com{" "}
