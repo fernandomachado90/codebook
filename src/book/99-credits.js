@@ -38,16 +38,16 @@ export const body = (
     <h2>Créditos</h2>
 
     <p>
-      Este guia de estudos foi originalmente desenvolvido entre 2018—2020, em mutirões de trabalho voluntário de pessoas
-      consultoras da{" "}
+      Este guia de estudos foi originalmente desenvolvido entre 2018—2020, em mutirões de trabalho voluntário realizado
+      por pessoas consultoras da{" "}
       <a target="_blank" rel="noreferrer" href="https://www.thoughtworks.com/aceleradora">
         ThoughtWorks Brasil
       </a>{" "}
-      no âmbito da{" "}
+      envolvidas na construção da{" "}
       <a target="_blank" rel="noreferrer" href="http://aceleradora-inclusiva.herokuapp.com/">
         Aceleradora Inclusiva
       </a>
-      , um projeto de educação popular em tecnologia viabilizado por uma parceria entre ThoughtWorks Brasil e PUC-RS.
+      , um projeto de educação popular de tecnologia viabilizado por uma parceria entre ThoughtWorks Brasil e PUC-RS.
     </p>
 
     <p>
