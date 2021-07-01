@@ -54,7 +54,7 @@ export const body = (
     <h2>Atualizações</h2>
     <ul>
       <li>
-        <b>jun/2021:</b> lançamento da primeira versão do guia <i>(20 páginas)</i>
+        <b>jul/2021:</b> lançamento da primeira versão do guia <i>(20 páginas)</i>
       </li>
     </ul>
 
