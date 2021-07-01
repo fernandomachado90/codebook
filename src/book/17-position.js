@@ -4,8 +4,8 @@ const boxStyle = {
   display: "inline-block",
   outline: "5px dashed black",
   fontSize: "50px",
-  lineHeight: "65px",
   margin: "10px",
+  lineHeight: "70px",
   height: "70px",
   width: "70px",
 }
@@ -34,25 +34,23 @@ export const body = (
 
     <code>
       <pre>{`.box {
-  position: static;
   display: inline-block;
   margin: 10px;
   width: 70px;
   height: 70px;
-  outline: 5px solid black;
+  outline: 5px dashed black;
+}
+.cat {
+  position: static; /* redundante, pois o padrão é static */
 }
 
-<div class="box">🐈</div>
-<div class="box">🐈</div>
-<div class="box">🐈</div>
-<div class="box">🐈</div>
-<div class="box">🐈</div>
+<div class="box cat">🐈</div>
+<div class="box cat">🐈</div>
+<div class="box cat">🐈</div>
 `}</pre>
     </code>
 
     <p>
-      <div style={boxStyle}>🐈</div>
-      <div style={boxStyle}>🐈</div>
       <div style={boxStyle}>🐈</div>
       <div style={boxStyle}>🐈</div>
       <div style={boxStyle}>🐈</div>
@@ -62,8 +60,8 @@ export const body = (
     <h3>Relative</h3>
     <p>
       Com o posicionamento <b>relative</b>, podemos ajustar a posição do elemento em relação a sua posição original, de
-      acordo com os pixels definidos em <b>top</b>, <b>right</b>, <b>bottom</b> e <b>left</b>. Os elementos vizinhos não
-      são afetados pela mudança.
+      acordo com os pixels definidos em <b>top</b>, <b>right</b>, <b>bottom</b> e <b>left</b>. As posições dos elementos
+      vizinhos não são afetadas pela mudança.
     </p>
 
     <code>
@@ -78,11 +76,11 @@ export const body = (
   right: 5px;
 }
 
-<div class="box">🐈</div>
+<div class="box cat">🐈</div>
 <div class="box rat">🐀</div>
-<div class="box">🐈</div>
+<div class="box cat">🐈</div>
 <div class="box mouse">🐁</div>
-<div class="box">🐈</div>`}</pre>
+<div class="box cat">🐈</div>`}</pre>
     </code>
 
     <p>
@@ -115,8 +113,8 @@ export const body = (
     <h3>Absolute</h3>
     <p>
       No posicionamento <b>absolute</b>, podemos ajustar a posição do elemento com relação ao seu "elemento pai
-      posicionado" (um elemento com posicionamento não-<b>static</b>). Caso esse elemento não exista para definir o
-      referencial, as dimensões da própria tela são consideradas. Os elementos vizinhos não são afetados pela mudança.
+      posicionado" (um elemento com posicionamento não-<b>static</b>). Caso esse elemento "referencial" não exista, as
+      dimensões da própria tela são consideradas. Os elementos vizinhos tem suas posições reajustadas pela mudança.
     </p>
 
     <code>
@@ -130,11 +128,17 @@ export const body = (
   top: -80px;
   right: 0px;
 }
+.poodle {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
 
 <div class="container">
-  <div class="box">🐈</div>
+  <div class="box cat">🐈</div>
   <div class="box rabbit">🐇</div>
-  <div class="box">🐈</div>
+  <div class="box poodle">🐩</div>
+  <div class="box cat">🐈</div>
 </div>`}</pre>
     </code>
 
@@ -156,14 +160,25 @@ export const body = (
       >
         🐇
       </div>
+      <div
+        style={{
+          ...boxStyle,
+          position: "absolute",
+          bottom: "10px",
+          right: "10px",
+        }}
+      >
+        🐩
+      </div>
       <div style={boxStyle}>🐈</div>
     </p>
 
     <hr />
     <h3>Fixed</h3>
     <p>
-      O posicionamento <b>fixed</b> permite ajustar a posição de um elemento com relação as dimensões da própria tela.
-      Os elementos vizinhos não são afetados pela mudança.
+      O posicionamento <b>fixed</b> permite ajustar a posição de um elemento com relação as dimensões da própria tela. É
+      o mesmo comportamento de <b>absolute</b> quando não há "referencial") e os elementos vizinhos tem suas posições
+      reajustadas pela mudança.
     </p>
 
     <code>
@@ -171,12 +186,12 @@ export const body = (
   position: fixed;
   bottom: 0;
   left: 20%;
-  outline: none; /* o macaco saiu fora da gaiola */
+  outline: none; /* o macaco escapou! */
 }
 
-<div class="box">🐈</div>
+<div class="box cat">🐈</div>
 <div class="box monkey">🐒</div>
-<div class="box">🐈</div>`}</pre>
+<div class="box cat">🐈</div>`}</pre>
     </code>
 
     <p>
