@@ -5,7 +5,7 @@ export const body = (
   <>
     <h1>Recursos</h1>
 
-    <p>É possível referênciar recursos disponíveis na internet, como links e imagens.</p>
+    <p>É possível referenciar recursos disponíveis na internet, como links e imagens.</p>
 
     <h3>Links</h3>
     <p>
