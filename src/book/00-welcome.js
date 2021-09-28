@@ -52,13 +52,6 @@ export const body = (
       sua conta e mantenha um portfólio de páginas web!
     </p>
 
-    <h2>Atualizações</h2>
-    <ul>
-      <li>
-        <b>jun/2021:</b> primeira versão do guia <i>(20 páginas)</i>
-      </li>
-    </ul>
-
     <h2>Colabore</h2>
     <p>Caso tenha interesse, você pode fazer parte desse projeto em diferentes frentes:</p>
 
