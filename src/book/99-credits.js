@@ -28,6 +28,18 @@ export const body = (
         </a>{" "}
         <i>(em inglês)</i>
       </li>
+      <li>
+        <a href="https://trello.com/b/wv0mCgaQ/guia-de-estudos-css-v10" target="_blank" rel="noreferrer">
+          Guia de Estudos CSS - Trello
+        </a>{" "}
+        <i>(em português)</i>
+      </li>
+      <li>
+        <a href="https://github.com/perifacode/conteudo-gratuito" target="_blank" rel="noreferrer">
+          Perifacode - Repositório com Conteúdos Gratuitos
+        </a>{" "}
+        <i>(em português)</i>
+      </li>
     </ul>
 
     <p>
@@ -58,8 +70,8 @@ export const body = (
     <p>Essa é uma lista das pessoas que contribuíram até agora:</p>
 
     <ul>
-      <li>Fernando Machado</li>
-      <li> </li>
+      <li>Fernando Machado (<a target="_blank" rel="noreferrer" href="https://twitter.com/fernandomarxado">@fernandomarxado</a>)</li>
+        <li>Thaiane Braga (<a target="_blank" rel="noreferrer" href="https://twitter.com/ThaiiBraga">@ThaiiBraga</a>)</li>
       <li> </li>
       <li> </li>
     </ul>

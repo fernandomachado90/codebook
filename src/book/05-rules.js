@@ -6,7 +6,7 @@ export const body = (
     <h1>Regras</h1>
 
     <p>
-      Criando um elemento<b>&lt;style&gt;</b> ou com um arquivo dedicado (aba <b>CSS</b> no editor ⌨️), podemos definir
+      Criando um elemento <b>&lt;style&gt;</b> ou com um arquivo dedicado (aba <b>CSS</b> no editor ⌨️), podemos definir
       regras de estilos válidas para todos os elementos de nossa página.
     </p>
 
