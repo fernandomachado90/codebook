@@ -22,7 +22,7 @@ Builds deployable version of React app.
 
 Formats source code using [Prettier](https://www.npmjs.com/package/prettier).
 
-### `make start`
+### `make run`
 
 Runs the app in development mode on [http://localhost:3000](http://localhost:3000).
 

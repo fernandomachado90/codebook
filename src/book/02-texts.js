@@ -9,8 +9,8 @@ export const body = (
 
     <h3>Cabeçalho</h3>
     <p>
-      As tags <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b>,
-      <b>&lt;h6&gt;</b> são usadas para representar títulos e subtítulos, sendo o nível 1 é o mais alto e o 6 o mais
+      As tags <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b> e
+      <b>&lt;h6&gt;</b> são usadas para representar títulos e subtítulos, sendo que o nível 1 é o mais alto e o 6 o mais
       baixo.
     </p>
 

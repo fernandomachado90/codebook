@@ -48,7 +48,7 @@ export const body = (
 
     <h3>Comentário</h3>
     <p>
-      Quando queremos ocultar algum trecho de código, por ser algo que relevante apenas pra quem desenvolve, usamos
+      Quando queremos ocultar algum trecho de código, por ser algo relevante apenas pra quem desenvolve, usamos
       comentários para não renderizar os elementos demarcados. A notação para comentários em HTML é <b>&lt;!--</b>{" "}
       <i>conteúdo comentado</i> <b>--&gt;</b>
     </p>
